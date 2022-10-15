@@ -1749,7 +1749,7 @@ button::-moz-focus-inner,input[type=button]::-moz-focus-inner,input[type=reset]:
 
 .cmn-btn {
     position: relative;
-    background: #27ae61;
+    background: red;
     color: #fff;
     padding: 8px 25px;
     text-transform: capitalize;
@@ -1792,7 +1792,7 @@ button::-moz-focus-inner,input[type=button]::-moz-focus-inner,input[type=reset]:
 }
 
 .cmn-btn:focus,.cmn-btn:hover {
-    color: #27ae61;
+    color: red;
     background-color: #fff
 }
 

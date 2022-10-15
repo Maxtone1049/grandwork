@@ -4245,8 +4245,8 @@ a:hover,a:active {
 
 .dashboard-section .dash-user-area .dash-left-user-area .user-details {
     width: calc(100% - 100px);
-    background-color: #b2991b;
-    //#272d43}
+    background-color: red;
+    }
 
 .navbar-toggler-icon,.nav-item>.nav-link {
     color: #fafafa!important

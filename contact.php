@@ -87,21 +87,6 @@ $put= "<div class='header-action'>
     </script>
 </head>
 <body>
-<!-- <div class="preloader-area">
-<div class='coin'>
-<div class='front jump'>
-<div class='star'></div>
-<span class='currency'><i class="las la-coins"></i></span>
-<div class='shapes'>
-<div class='shape_l'></div>
-<div class='shape_r'></div>
-<span class='top'>ProfitElite</span>
-<span class='bottom'>ProfitElite</span>
-</div>
-</div>
-<div class='shadow'></div>
-</div>
-</div> -->
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -109,7 +94,7 @@ $put= "<div class='header-action'>
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
+<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
 <?php

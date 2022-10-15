@@ -20,7 +20,7 @@ $put= "<div class='header-action'>
 
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
-+234 812 645 2522
++234 701 041 4251
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 
@@ -88,7 +88,7 @@ $put= "<div class='header-action'>
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
+<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
 <?php

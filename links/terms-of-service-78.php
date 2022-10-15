@@ -256,7 +256,7 @@ discontinue participation in AFGOLD and properly terminate his or her
 membership. </p></div>
 </div>
 </div>
-<?php include ('./footer.php')?>
+<?php include ('./../footer.php')?>
 
 
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/templates/basic/js/jquery-3.3.1.min.js"></script>

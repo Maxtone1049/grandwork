@@ -3035,7 +3035,7 @@ a:hover,a:active {
 }
 
 .breadcrumb li {
-    color: #27ae61;
+    color: red;
     text-transform: capitalize
 }
 

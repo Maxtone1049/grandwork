@@ -1,3 +1,22 @@
+<?php
+session_start();
+error_reporting(0);
+include '../includes/dbconnect.php';
+if (strlen($_SESSION['obcsuid']>0)) {
+
+$uid=$_SESSION['obcsuid'];
+$put= "<div class='header-action'>
+<a href='../account/dashboard' class='cmn-btn-active'>Dashboard</a>
+</div>";
+
+  
+}else {
+    $out= " <div class='header-action'>
+    <a href='../register' class='cmn-btn'>Register</a>
+  <a href='../login' class='cmn-btn-active'>Login</a>
+    </div>";
+}
+?>
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 
@@ -67,21 +86,6 @@
     </script>
 </head>
 <body>
-<div class="preloader-area">
-<div class='coin'>
-<div class='front jump'>
-<div class='star'></div>
-<span class='currency'><i class="las la-coins"></i></span>
-<div class='shapes'>
-<div class='shape_l'></div>
-<div class='shape_r'></div>
-<span class='top'>Profit Elite</span>
-<span class='bottom'>Profit Elite</span>
-</div>
-</div>
-<div class='shadow'></div>
-</div>
-</div>
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -92,10 +96,14 @@
 <span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
 </div>
 <div class="header-right-info">
-<div class="header-action">
-<a href="../register.html" class="cmn-btn">Register</a>
-<a href="../login.html" class="cmn-btn-active">Login</a>
-</div>
+<?php
+                   if ($_SESSION['obcsuid']>0) {
+                       echo $put;
+                    }else {
+                    echo $out;
+                  }
+                    
+                    ?>
 </div>
 </div>
 </div>
@@ -119,8 +127,14 @@
 <li><a href="../pin-dispatcher.html">Dispatchers</a></li>
 <li><a href="../top-earners.html">Top Earners</a></li>
 <div class="header-small">
-<a href="../register.html" class="cmn-btn">Register</a>
- <a href="../login.html" class="cmn-btn-active">Login</a>
+<?php
+                   if ($_SESSION['obcsuid']>0) {
+                       echo $put;
+                    }else {
+                    echo $out;
+                  }
+                    
+                    ?>
 </div>
 </ul>
 </div>

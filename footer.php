@@ -14,16 +14,16 @@
                                 <h3 class="widget-title">Quick Links</h3>
                                 <ul class="footer-list">
                                     <li>
-                                        <a href="./about-us">About</a>
+                                        <a href="\about-us">About</a>
                                     </li>
                                     <li>
-                                        <a href="./how-it-works">How it Works</a>
+                                        <a href="\how-it-works">How it Works</a>
                                     </li>
                                     <li>
-                                        <a href="./blogs">Blog</a>
+                                        <a href="\blogs">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="./contact">Contact</a>
+                                        <a href="\contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>

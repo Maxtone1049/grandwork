@@ -1,3 +1,22 @@
+<?php
+session_start();
+error_reporting(0);
+include '../includes/dbconnect.php';
+if (strlen($_SESSION['obcsuid']>0)) {
+
+$uid=$_SESSION['obcsuid'];
+$put= "<div class='header-action'>
+<a href='../account/dashboard' class='cmn-btn-active'>Dashboard</a>
+</div>";
+
+  
+}else {
+    $out= " <div class='header-action'>
+    <a href='register' class='cmn-btn'>Register</a>
+    <a href='login' class='cmn-btn-active'>Login</a>
+    </div>";
+}
+?>
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 
@@ -78,21 +97,7 @@
     </script>
 </head>
 <body>
-<!-- <div class="preloader-area">
-<div class='coin'>
-<div class='front jump'>
-<div class='star'></div>
-<span class='currency'><i class="las la-coins"></i></span>
-<div class='shapes'>
-<div class='shape_l'></div>
-<div class='shape_r'></div>
-<span class='top'>ProfitElite</span>
-<span class='bottom'>ProfitElite</span>
-</div>
-</div>
-<div class='shadow'></div>
-</div>
-</div> -->
+
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -103,10 +108,14 @@
 <span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
-<div class="header-action">
-<a href="register" class="cmn-btn">Register</a>
-<a href="login" class="cmn-btn-active">Login</a>
-</div>
+<?php
+                   if ($_SESSION['obcsuid']>0) {
+                       echo $put;
+                    }else {
+                    echo $out;
+                  }
+                    
+                    ?>
 </div>
 </div>
 </div>
@@ -130,8 +139,14 @@
 <li><a href="pin-dispatcher">Dispatchers</a></li>
 <li><a href="top-earners">Top Earners</a></li>
 <div class="header-small">
-<a href="register" class="cmn-btn">Register</a>
-<a href="login" class="cmn-btn-active">Login</a>
+<?php
+                   if ($_SESSION['obcsuid']>0) {
+                       echo $put;
+                    }else {
+                    echo $out;
+                  }
+                    
+                    ?>
 </div>
 </ul>
 </div>

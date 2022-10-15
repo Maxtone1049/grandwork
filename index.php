@@ -513,7 +513,7 @@ $put= "<div class='header-action'>
 </div>
 <span>Adebayo Grace</span>
 </th>
-<td>15000</td>
+<td>56,900</td>
 </tr>
 </tbody>
 </table>

@@ -185,7 +185,7 @@ $put= "<div class='header-action'>
 <div class="row justify-content-center">
 <div class="col-lg-8 text-center">
 <div class="section-header">
-<h2 class="title">AFGOLD FREQUENTLY ASKED QUESTIONS</h2>
+<h2 class="title">PElite FREQUENTLY ASKED QUESTIONS</h2>
 <span class="title-border"></span>
 <p>Here you can find our top frequently asked questions. Please let us know if you have any queries regarding our mining platform and FAQs.</p>
 </div>
@@ -249,7 +249,7 @@ $put= "<div class='header-action'>
 <div class="faq-item ">
 <h3 class="faq-title"><span class="title">What is the difference between Profit Elite and all these read news and comment to earn platforms?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
-<p>Profit Elite has a functional cash reservoir, they do not depend on Google Adsense before paying her members. Amount of AFGOLD supply daily is what they can afford to pay. The company is monitised in different ways to ensure consistent mining cash flow.</p>
+<p>Profit Elite has a functional cash reservoir, they do not depend on Google Adsense before paying her members. Amount of PElite supply daily is what they can afford to pay. The company is monitised in different ways to ensure consistent mining cash flow.</p>
 </div>
 </div>
 </div>
@@ -264,7 +264,7 @@ $put= "<div class='header-action'>
 <div class="section-header">
 <h2 class="section-title">Why Choose Profit Elite?</h2>
 <span class="title-border"></span>
-<p>As an AFGOLD MINER, you get paid as you mine per minute without having to bring people before earning. We are combining all the key aspects of conducting an efficient cryptocurrency mining activity. From building a highly efficient data center to providing a robust mining system for our users.</p>
+<p>As an PElite MINER, you get paid as you mine per minute without having to bring people before earning. We are combining all the key aspects of conducting an efficient cryptocurrency mining activity. From building a highly efficient data center to providing a robust mining system for our users.</p>
 </div>
 </div>
 </div>

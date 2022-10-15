@@ -26,7 +26,7 @@ $put= "<div class='header-action'>
 <link rel="icon" type="image/x-icon" href="../../assets/images/logoIcon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/logoIcon/favicon.png" />
 <link href="../../../fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-<title> Profit Elite - AfricTrend</title>
+<title> Profit Elite - EliteTrend</title>
 <meta name="title" Content="Profit Elite - EliteTrend">
 <meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
 <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Elite,Profit Elite,Profit Elite mining,Profit Elite mining">
@@ -181,7 +181,7 @@ $put= "<div class='header-action'>
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
 <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-<li class="breadcrumb-item active" aria-current="page">AfricTrend</li>
+<li class="breadcrumb-item active" aria-current="page">EliteTrend</li>
 </ol>
 </nav>
 </div>
@@ -210,21 +210,21 @@ $put= "<div class='header-action'>
 <br /><br /><span style="font-size:22px;">Thank you to everyone who participated in this year's Profit Elite VIDEO CHALLENGE CONTEST. Your hard work and commitment is much appreciated and hasn't gone unnoticed. We thoroughly enjoyed getting an inside look at each of your individual videos challenge creative marketing displays.</span>
 <br /><br /><span style="font-size:22px;">Those who took part in this year's video challenge using Profit Elite CUSTOMISED POLO would also be rewarded. </span>
 <br /><br /><span style="font-size:22px;">While we are still modifying our system, Another contest would be coming up soon. 1M cash prize to be won! GET READY &amp; BE PREPARED! </span><br /> </p>
-<p><div id="social-links"><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=https://Profit Elitem.com/trend/170/Profit Elite-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-facebook-square"></span></a></li><li><a target="_blank" href="https://wa.me/?text=https://Profit Elitem.com/trend/170/Profit Elite-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-whatsapp"></span></a></li><li><a target="_blank" href="https://telegram.me/share/url?url=https://Profit Elitem.com/trend/170/Profit Elite-video-challenge-winners-announced&amp;text=Default+share+text" class="social-button " id="" title="" rel=""><span class="fab fa-telegram"></span></a></li></ul></div></p>
+<p><div id="social-links"><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=\trend/170/Profit Elite-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-facebook-square"></span></a></li><li><a target="_blank" href="https://wa.me/?text=\trend/170/Profit Elite-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-whatsapp"></span></a></li><li><a target="_blank" href="https://telegram.me/share/url?url=\trend/170/Profit Elite-video-challenge-winners-announced&amp;text=Default+share+text" class="social-button " id="" title="" rel=""><span class="fab fa-telegram"></span></a></li></ul></div></p>
 </div>
 </div>
 </div>
 <div class="col-lg-4 mrb-30">
 <div class="sidebar">
 <div class="widget-box">
-<h5 class="widget-title">Latest AfricTrend</h5>
+<h5 class="widget-title">Latest Elite Trend</h5>
 <div class="popular-widget-box">
 <div class="single-popular-item d-flex flex-wrap align-items-center">
 <div class="popular-item-thumb">
 <img src="../../assets/images/frontend/blog/6272aa325b7211651681842.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../174/get-started-on-Profit Elite-and-claim-your-free-airtimedata-in-seconds.html">Get started on Profit Elite and claim your free airtime/data in seconds!</a></h5>
+<h5 class="title"><a href="../174/get-started-on-profit-elite-and-claim-your-free-airtimedata-in-seconds.php">Get started on Profit Elite and claim your free airtime/data in seconds!</a></h5>
 <span class="blog-date">04 May, 2022</span>
 </div>
 </div>
@@ -233,7 +233,7 @@ $put= "<div class='header-action'>
 <img src="../../assets/images/frontend/blog/6273eeabea3a91651764907.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../175/withdraw-and-get-paid-in-usdt-optional.html">WITHDRAW AND GET PAID IN USDT (OPTIONAL)</a></h5>
+<h5 class="title"><a href="../175/withdraw-and-get-paid-in-usdt-optional">WITHDRAW AND GET PAID IN USDT (OPTIONAL)</a></h5>
 <span class="blog-date">05 May, 2022</span>
 </div>
 </div>
@@ -242,7 +242,7 @@ $put= "<div class='header-action'>
 <img src="../../assets/images/frontend/blog/62ab6a9c194d91655401116.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../178/Profit Elite-is-a-rock-solid-project-that-would-never-wavers.html">Profit Elite is a Rock solid project that would never wavers!</a></h5>
+<h5 class="title"><a href="../178/profitelite-is-a-rock-solid-project-that-would-never-wavers">Profit Elite is a Rock solid project that would never wavers!</a></h5>
 <span class="blog-date">16 June, 2022</span>
 </div>
 </div>
@@ -251,7 +251,7 @@ $put= "<div class='header-action'>
 <img src="../../assets/images/frontend/blog/62c72bef6f3e51657220079.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../179/Profit Elite-is-the-most-stable-virtual-mining-platform-in-nigeria.html">Profit Elite is the most stable virtual mining platform in Nigeria.</a></h5>
+<h5 class="title"><a href="../179/profitelite-is-the-most-stable-virtual-mining-platform.php">Profit Elite is the most stable virtual mining platform in Nigeria.</a></h5>
 <span class="blog-date">07 July, 2022</span>
 </div>
 </div>
@@ -263,90 +263,7 @@ $put= "<div class='header-action'>
 </div>
 </section>
 
-<footer class="footer-section ptb-80">
-<div class="container">
-<div class="footer-area">
-<div class="row ml-b-30">
-<div class="col-lg-4 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">About Us</h3>
-<p>Profit Elite is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Quick Links</h3>
-<ul class="footer-list">
-<li><a href="../../about-us.html">About</a></li>
-<li><a href="../../how-it-works.html">How it Works</a></li>
-<li><a href="../../blogs.html">Blog</a></li>
-<li><a href="../../contact.html">Contact</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-2 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Useful Links</h3>
-<ul class="footer-list">
-<li><a href="../../links/disclaimer-87.html">Disclaimer</a></li>
-<li><a href="../../links/cookie-policy-83.html">Cookie Policy</a></li>
-<li><a href="../../links/terms-of-service-78.html">Terms of Service</a></li>
-<li><a href="../../links/privacy-policy-77.html">Privacy Policy</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">Contact Info</h3>
-<ul class="footer-list">
-<li>Call Us Now +234 701 041 4251</li>
-<li><a href="../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="9feceaefeff0edebdffef9edf6fcf8f0f3fbb1fcf0f2">[email&#160;protected]</a></li>
-<li>Profit Elite Head Office, Lagos 125666, NG</li>
-</ul>
- </div>
-</div>
-<div class="col-lg-12">
-<div class="social-area d-flex justify-content-center">
-<ul class="footer-social">
-<li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-<li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<div class="privacy-area privacy-area--style">
-<div class="container">
-<div class="copyright-area d-flex flex-wrap align-items-center justify-content-center">
-<div class="copyright">
-<p>COPYRIGHT © 2021 ALL RIGHTS RESERVED</p>
-</div>
-</div>
-</div>
-</div>
-
-<div id="notification-1" class="notification">
-<div class="notification-block">
-<div class="notification-img">
-
-<img src="../../assets/images/logoIcon/favicon.png" aria-hidden="true"></img>
-
-</div>
-<div class="notification-text-block">
-<div class="notification-title">
-
-Profit Elite Update
-
-</div>
-<div class="notification-text"></div>
-</div>
-</div>
-</div>
-
+<?php include('../../footer.php')?>
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../assets/templates/basic/js/jquery-3.3.1.min.js"></script>
 
@@ -408,57 +325,5 @@ Profit Elite Update
             });
         });
     </script>
-<script>
-
-    'use strict';
-    (function($){
-        $(document).on("change", ".select-bar", function() {
-            window.location.href = "https://Profit Elitem.com/change/"+$(this).val() ;
-        });
-
-        $('.select-bar').val('en');
-    })(jQuery)
-</script>
-<script>
-
-    $(document).ready(function() {
-        $('#notification-1').Notification({
-            // Notification varibles
-            Varible1: ["David","Jack","Olivia","Samuel","Thomas","William","Adam","Dylan","Luke","Matthew","Ethan","Nathan","Archie","Oscar","Lucas","Isaac","Tom","Gabriel","Reuben","Sean","Jude","Leon","Tanaka","Sasaki","Kimura","Yamada","Hayashi","Ogawa","Lisa","Grete","Sandra","Anna","Kati","Stacy","Jane"],
-            Varible2: ["Ikeja","Lagos","Kaduna","Kwara","Delta","Ghana","Cameroon","Makurdi","Uyo","Eket","Awka","Enugu","Kebbi","Jos","Kogi","Nasarrawa","Kebbi","Lokoja","Abia"],
-            Varible3: ["registerd", "started mining", "referred"],
-            Amount: [100, 50000],
-            Content: '[Varible1] from [Varible2] has just [Varible3].',
-            // Timer
-            Show: ['random', 5, 10],
-            Close: 5,
-            Time: [0, 23],
-            // Notification style
-            LocationTop: [false, '5%'],
-            LocationBottom:[true, '5%'],
-            LocationRight: [false, '5px'],
-            LocationLeft:[true, '10px'],
-            Background: '#252c40',
-            BorderRadius: 5,
-            BorderWidth: 3,
-            BorderColor: 'gold',
-            TextColor: 'white',
-            IconColor: 'orange',
-            // Notification Animated
-            AnimationEffectOpen: 'fadeInUp',
-            AnimationEffectClose: 'fadeOutDown',
-            // Number of notifications
-            Number: 100,
-            // Notification link
-            Link: [false, '#']
-
-        });
-
-
-    });
-
-</script>
 </body>
-
-<!-- Mirrored from Profit Elitem.com/trend/170/Profit Elite-video-challenge-winners-announced by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 00:14:29 GMT -->
 </html>

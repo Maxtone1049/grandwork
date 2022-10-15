@@ -48,23 +48,16 @@ $put= "<div class='header-action'>
 <meta property="og:image:height" content="315" />
 <meta property="og:url" content="privacy-policy-77.html">
 <meta name="twitter:card" content="summary_large_image">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/fontawesome-all.min.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/line-awesome.min.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/nice-select.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/templates/basic/css/swiper.min.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/animate.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/style.css">
-<link rel="stylesheet" href="../assets/templates/basic/css/custom.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/fake-notification-min.css">
-<link rel="stylesheet" type="text/css" href="../assets/templates/basic/css/colora961.css?color=b2991b">
+<link rel="stylesheet" href="./../assets/templates/basic/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/line-awesome.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/nice-select.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/bootstrap.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/swiper.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/animate.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/style.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/custom.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/fake-notification-min.css">
+<link rel="stylesheet" type="text/css" href="./../assets/templates/basic/css/colora961.css?color=b2991b">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198044238-4"></script>
 <script>
@@ -112,19 +105,19 @@ $put= "<div class='header-action'>
 <div class="container">
 <div class="header-menu-content">
 <nav class="navbar navbar-expand-lg p-0">
-<a class="site-logo site-title" href="../index.html"><img src="../assets/images/logoIcon/logo.png" alt="site-logo"></a>
+<a class="site-logo site-title" href="../."><img src="./../assets/images/logoIcon/logo.png" alt="site-logo"></a>
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="fas fa-bars"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav main-menu ml-auto mr-auto">
-<li><a href="../index.html" class="active">Home</a></li>
-<li><a href="../about-us.html">About</a></li>
-<li><a href="../how-it-works.html">How it Works</a></li>
-<li><a href="../contact.html">Contact</a></li>
-<li><a href="../verify/pin.html">Verify Pin</a></li>
-<li><a href="../pin-dispatcher.html">Dispatchers</a></li>
-<li><a href="../top-earners.html">Top Earners</a></li>
+<li><a href="./../." class="active">Home</a></li>
+<li><a href="./../about-us">About</a></li>
+<li><a href="./../how-it-works">How it Works</a></li>
+<li><a href="./../contact">Contact</a></li>
+<li><a href="./../verify/pin">Verify Pin</a></li>
+<li><a href="./../pin-dispatcher">Dispatchers</a></li>
+<li><a href="./../top-earners">Top Earners</a></li>
 <div class="header-small">
 <?php
                    if ($_SESSION['obcsuid']>0) {
@@ -143,7 +136,7 @@ $put= "<div class='header-action'>
 </div>
 </header>
 <a href="#" class="scrollToTop"><i class="fa fa-angle-double-up"></i></a>
-<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="../assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
+<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="./../assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
 <div class="container">
 <div class="row justify-content-center align-items-center ml-b-30">
 <div class="col-lg-10 text-center mrb-30">
@@ -152,7 +145,7 @@ $put= "<div class='header-action'>
 <div class="breadcrumb-area">
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="../.">Home</a></li>
+<li class="breadcrumb-item"><a href="./../.">Home</a></li>
 <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
 </ol>
 </nav>
@@ -216,27 +209,27 @@ items or administrations.</p><p></p>
 <p class="MsoNormal"></p><p> </p></div>
 </div>
 </div>
-<?php include ('../footer.php')?>
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/templates/basic/js/jquery-3.3.1.min.js"></script>
+<?php include ('./../footer.php')?>
+<script data-cfasync="false" src="./../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/templates/basic/js/jquery-3.3.1.min.js"></script>
 
-<script src="../assets/templates/basic/js/jquery-migrate-3.0.0.js"></script>
+<script src="./../assets/templates/basic/js/jquery-migrate-3.0.0.js"></script>
 
-<script src="../assets/templates/basic/js/bootstrap.min.js"></script>
-<script src="../assets/templates/basic/js/swiper.min.js"></script>
+<script src="./../assets/templates/basic/js/bootstrap.min.js"></script>
+<script src="./../assets/templates/basic/js/swiper.min.js"></script>
 
-<script src="../assets/templates/basic/js/jquery.nice-select.js"></script>
+<script src="./../assets/templates/basic/js/jquery.nice-select.js"></script>
 
-<script src="../assets/templates/basic/js/chart.js"></script>
+<script src="./../assets/templates/basic/js/chart.js"></script>
 
-<script src="../assets/templates/basic/js/wow.min.js"></script>
+<script src="./../assets/templates/basic/js/wow.min.js"></script>
 
-<script src="../assets/templates/basic/js/particles.js"></script>
+<script src="./../assets/templates/basic/js/particles.js"></script>
 
-<script src="../assets/templates/basic/js/main.js"></script>
+<script src="./../assets/templates/basic/js/main.js"></script>
 
-<script src="../assets/templates/basic/js/jquery.fake-notification.min.js"></script>
-<link rel="stylesheet" href="../assets/admin/css/iziToast.min.css">
-<script src="../assets/admin/js/iziToast.min.js"></script>
+<script src="./../assets/templates/basic/js/jquery.fake-notification.min.js"></script>
+<link rel="stylesheet" href="./../assets/admin/css/iziToast.min.css">
+<script src="./../assets/admin/js/iziToast.min.js"></script>
 <script>
     "use strict";
     function notify(status, message) {

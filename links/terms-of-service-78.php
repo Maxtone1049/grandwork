@@ -50,22 +50,16 @@ $put= "<div class='header-action'>
 <meta property="og:url" content="terms-of-service-78.html">
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="stylesheet" href="../assets/templates/basic/css/fontawesome-all.min.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/line-awesome.min.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/nice-select.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/templates/basic/css/swiper.min.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/animate.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/style.css">
-<link rel="stylesheet" href="../assets/templates/basic/css/custom.css">
-
-<link rel="stylesheet" href="../assets/templates/basic/css/fake-notification-min.css">
-<link rel="stylesheet" type="text/css" href="../assets/templates/basic/css/colora961.css?color=b2991b">
+<link rel="stylesheet" href="./../assets/templates/basic/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/line-awesome.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/nice-select.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/bootstrap.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/swiper.min.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/animate.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/style.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/custom.css">
+<link rel="stylesheet" href="./../assets/templates/basic/css/fake-notification-min.css">
+<link rel="stylesheet" type="text/css" href="./../assets/templates/basic/css/colora961.css?color=b2991b">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198044238-4"></script>
 <script>

@@ -112,19 +112,19 @@ $put= "<div class='header-action'>
 <div class="container">
 <div class="header-menu-content">
 <nav class="navbar navbar-expand-lg p-0">
-<a class="site-logo site-title" href="../index.html"><img src="../assets/images/logoIcon/logo.png" alt="site-logo"></a>
+<a class="site-logo site-title" href="./../."><img src="./../assets/images/logoIcon/logo.png" alt="site-logo"></a>
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="fas fa-bars"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav main-menu ml-auto mr-auto">
-<li><a href="../." class="active">Home</a></li>
-<li><a href="../about-us">About</a></li>
-<li><a href="../how-it-works">How it Works</a></li>
-<li><a href="../contact">Contact</a></li>
-<li><a href="../verify/pin">Verify Pin</a></li>
-<li><a href="../pin-dispatcher">Dispatchers</a></li>
-<li><a href="../top-earners">Top Earners</a></li>
+<li><a href="./../." class="active">Home</a></li>
+<li><a href="./../about-us">About</a></li>
+<li><a href="./../how-it-works">How it Works</a></li>
+<li><a href="./../contact">Contact</a></li>
+<li><a href="./../verify/pin">Verify Pin</a></li>
+<li><a href="./../pin-dispatcher">Dispatchers</a></li>
+<li><a href="./../top-earners">Top Earners</a></li>
 <div class="header-small">
 <?php
                     if ($_SESSION['obcsuid']>0) {
@@ -151,7 +151,7 @@ $put= "<div class='header-action'>
 <div class="breadcrumb-area">
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="../.">Home</a></li>
+<li class="breadcrumb-item"><a href="./../.">Home</a></li>
 <li class="breadcrumb-item active" aria-current="page">Cookie Policy</li>
 </ol>
 </nav>
@@ -166,7 +166,7 @@ $put= "<div class='header-action'>
 <div class="wb-break-all"><br /></div>
 </div>
 </div>
-<?php include ('../footer.php')?>
+<?php include ('./../footer.php')?>
 
 
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/templates/basic/js/jquery-3.3.1.min.js"></script>

@@ -6,7 +6,7 @@
                         <div class="col-lg-4 col-sm-6 mrb-30">
                             <div class="footer-widget widget-menu">
                                 <h3 class="widget-title">About Us</h3>
-                                <p>Profit Ultimate is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
+                                <p>Profit Elite is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6 mrb-30">
@@ -53,9 +53,9 @@
                                 <ul class="footer-list">
                                     <li>Call Us Now +234 812 645 2522</li>
                                     <li>
-                                        <a href="mailto:support@profitultimate.com" class="__cf_email__" >support@profitultimate.com</a>
+                                        <a href="mailto:support@profit-elite.online" class="__cf_email__" >support@profit-elite.online</a>
                                     </li>
-                                    <li>Profit Ultimate Head Office, Lagos 125666, NG</li>
+                                    <li>Profit Elite Head Office, Lagos 125666, NG</li>
                                 </ul>
                             </div>
                         </div>

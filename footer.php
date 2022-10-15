@@ -33,16 +33,16 @@
                                 <h3 class="widget-title">Useful Links</h3>
                                 <ul class="footer-list">
                                     <li>
-                                        <a href="\/links/disclaimer-87">Disclaimer</a>
+                                        <a href="\links/disclaimer-87">Disclaimer</a>
                                     </li>
                                     <li>
-                                        <a href="\/links/cookie-policy-83">Cookie Policy</a>
+                                        <a href="\links/cookie-policy-83">Cookie Policy</a>
                                     </li>
                                     <li>
-                                        <a href="\/links/terms-of-service-78">Terms of Service</a>
+                                        <a href="\links/terms-of-service-78">Terms of Service</a>
                                     </li>
                                     <li>
-                                        <a href="\/links/privacy-policy-77">Privacy Policy</a>
+                                        <a href="\links/privacy-policy-77">Privacy Policy</a>
                                     </li>
                                 </ul>
                             </div>

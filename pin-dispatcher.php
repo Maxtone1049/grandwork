@@ -29,21 +29,21 @@ $put= "<div class='header-action'>
 <link rel="icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png" />
 <link href="fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-<title> Profit Ultimate - Pin Dispatcher</title>
-<meta name="title" Content="Profit Ultimate - Home">
-<meta name="description" content="Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Ultimate is built to be ready for whatever mining throws.">
-<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Ultimate,Profit Ultimate,Profit Ultimate mining,Profit Ultimate mining">
+<title> Profit Elite - Pin Dispatcher</title>
+<meta name="title" Content="Profit Elite - Home">
+<meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Elite,Profit Elite,Profit Elite mining,Profit Elite mining">
 <link rel="shortcut icon" href="assets/images/logoIcon/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Profit Ultimate - Home">
-<meta itemprop="name" content="Profit Ultimate - Home">
+<meta name="apple-mobile-web-app-title" content="Profit Elite - Home">
+<meta itemprop="name" content="Profit Elite - Home">
 <meta itemprop="description" content="">
 <meta itemprop="image" content="assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Profit Ultimate">
-<meta property="og:description" content="Profit Ultimate is an integral part of the cryptocurrency miner space. Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Ultimate allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+<meta property="og:title" content="Profit Elite">
+<meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
 <meta property="og:image" content="assets/images/seo/612d1ba9df6921630346153.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
@@ -87,7 +87,7 @@ $put= "<div class='header-action'>
     </script>
 </head>
 <body>
-<div class="preloader-area">
+<!-- <div class="preloader-area">
 <div class='coin'>
 <div class='front jump'>
 <div class='star'></div>
@@ -95,13 +95,13 @@ $put= "<div class='header-action'>
 <div class='shapes'>
 <div class='shape_l'></div>
 <div class='shape_r'></div>
-<span class='top'>ProfitUltimate</span>
-<span class='bottom'>ProfitUltimate</span>
+<span class='top'>Profit Elite</span>
+<span class='bottom'>Profit Elite</span>
 </div>
 </div>
 <div class='shadow'></div>
 </div>
-</div>
+</div> -->
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -109,7 +109,7 @@ $put= "<div class='header-action'>
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
+<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
 <?php
@@ -184,7 +184,7 @@ $put= "<div class='header-action'>
 <div class="container">
 <div class="col-md-8 m-auto">
 <h4 class="text-center dispatch-text">
-Below embodies Profit Ultimate trusted secret strings dispatchers.
+Below embodies Profit Elite trusted secret strings dispatchers.
 You can contact any of them for your PULTIMATE activation code,
 and you would be attended to promptly.
 </h4>
@@ -207,7 +207,7 @@ and you would be attended to promptly.
 <td class="disname">PULTIMATE</td>
 <td class="disname">08127161517</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348127161517&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348127161517&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -219,10 +219,10 @@ and you would be attended to promptly.
 </tr>
 <tr>
 <th scope="row">2</th>
-<td class="disname">Profit Ultimate</td>
+<td class="disname">Profit Elite</td>
 <td class="disname">09075716103</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349075716103&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349075716103&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -237,7 +237,7 @@ and you would be attended to promptly.
 <td class="disname">MARVELOUS</td>
 <td class="disname">08071793403</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348071793403&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348071793403&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -252,7 +252,7 @@ and you would be attended to promptly.
 <td class="disname">daviesakeem</td>
 <td class="disname">08127161517</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348127161517&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348127161517&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -267,7 +267,7 @@ and you would be attended to promptly.
 <td class="disname">Succylove</td>
 <td class="disname">08110001096</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348110001096&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348110001096&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -282,7 +282,7 @@ and you would be attended to promptly.
 <td class="disname">Prospere</td>
 <td class="disname">08115736776</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348115736776&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348115736776&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -297,7 +297,7 @@ and you would be attended to promptly.
 <td class="disname">Jesusbaby</td>
 <td class="disname">09024021659</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349024021659&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349024021659&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -312,7 +312,7 @@ and you would be attended to promptly.
 <td class="disname">favour</td>
 <td class="disname">08165358971</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348165358971&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348165358971&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -327,7 +327,7 @@ and you would be attended to promptly.
 <td class="disname">Grasong</td>
 <td class="disname">09078605086</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349078605086&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349078605086&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -342,7 +342,7 @@ and you would be attended to promptly.
 <td class="disname">mabdell</td>
 <td class="disname">09060213811</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349060213811&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349060213811&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
  <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -357,7 +357,7 @@ and you would be attended to promptly.
 <td class="disname">vizon</td>
 <td class="disname">09090343477</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349090343477&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349090343477&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -372,7 +372,7 @@ and you would be attended to promptly.
 <td class="disname">Nkay</td>
 <td class="disname">09078891730</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349078891730&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349078891730&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -387,7 +387,7 @@ and you would be attended to promptly.
 <td class="disname">Hussaini55</td>
 <td class="disname">09010288356</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349010288356&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349010288356&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -402,7 +402,7 @@ and you would be attended to promptly.
 <td class="disname">FAVOUR1</td>
 <td class="disname">08086758220</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348086758220&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348086758220&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -417,7 +417,7 @@ and you would be attended to promptly.
 <td class="disname">Lyncia</td>
 <td class="disname">07032736923</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2347032736923&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2347032736923&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -432,7 +432,7 @@ and you would be attended to promptly.
 <td class="disname">DAMSELCRUZ</td>
 <td class="disname">09023346542</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349023346542&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349023346542&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -447,7 +447,7 @@ and you would be attended to promptly.
 <td class="disname">gracesie</td>
 <td class="disname">08162918135</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348162918135&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348162918135&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -462,7 +462,7 @@ and you would be attended to promptly.
 <td class="disname">victory</td>
 <td class="disname">08157502033</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348157502033&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348157502033&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -477,7 +477,7 @@ and you would be attended to promptly.
  <td class="disname">zionmiles</td>
 <td class="disname">08101046246</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348101046246&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348101046246&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -492,7 +492,7 @@ and you would be attended to promptly.
 <td class="disname">kansi</td>
 <td class="disname">09073282229</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349073282229&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349073282229&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -507,7 +507,7 @@ and you would be attended to promptly.
 <td class="disname">ekpesidung</td>
 <td class="disname">07019649457</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2347019649457&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2347019649457&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -522,7 +522,7 @@ and you would be attended to promptly.
 <td class="disname">Vickychi</td>
 <td class="disname">08140053819</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348140053819&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348140053819&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -537,7 +537,7 @@ and you would be attended to promptly.
 <td class="disname">Nora</td>
 <td class="disname">08130419494</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348130419494&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348130419494&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -552,7 +552,7 @@ and you would be attended to promptly.
 <td class="disname">Gracechild</td>
 <td class="disname">09064532755</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2349064532755&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2349064532755&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -567,7 +567,7 @@ and you would be attended to promptly.
 <td class="disname">MCASH247</td>
 <td class="disname">08147001966</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348147001966&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348147001966&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -582,7 +582,7 @@ and you would be attended to promptly.
 <td class="disname">SMARD TV</td>
 <td class="disname">08121361882</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348121361882&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348121361882&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -597,7 +597,7 @@ and you would be attended to promptly.
 <td class="disname">EMEM01</td>
 <td class="disname">08167647921</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348167647921&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348167647921&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>
@@ -612,7 +612,7 @@ and you would be attended to promptly.
 <td class="disname">EMMYBEST TV</td>
 <td class="disname">08132544189</td>
 <td>
-<a href="https://api.whatsapp.com/send/?phone=2348132544189&amp;text=Hello,+I+want+to+purchase+ProfitUltimate+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
+<a href="https://api.whatsapp.com/send/?phone=2348132544189&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">
 </a>
 </td>

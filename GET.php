@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Profit Ultimate - 404 | page not found</title>
+<title>ProfitElite - 404 | page not found</title>
 <link rel="shortcut icon" type="image/png" href="assets/images/logoIcon/favicon.png">
 
 <link rel="stylesheet" href="assets/errors/css/bootstrap.min.css">

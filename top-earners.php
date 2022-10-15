@@ -9,21 +9,21 @@
 <link rel="icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png" />
 <link href="../fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-<title> Profit Ultimate - Top Earners</title>
-<meta name="title" Content="Profit Ultimate - Top Earners">
-<meta name="description" content="Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Ultimate is built to be ready for whatever mining throws.">
-<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Ultimate,Profit Ultimate,Profit Ultimate mining,Profit Ultimate mining">
+<title> Profit Elite - Top Earners</title>
+<meta name="title" Content="Profit Elite - Top Earners">
+<meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Elite,Profit Elite,Profit Elite mining,Profit Elite mining">
 <link rel="shortcut icon" href="assets/images/logoIcon/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Profit Ultimate - Top Earners">
-<meta itemprop="name" content="Profit Ultimate - Top Earners">
+<meta name="apple-mobile-web-app-title" content="Profit Elite - Top Earners">
+<meta itemprop="name" content="Profit Elite - Top Earners">
 <meta itemprop="description" content="">
 <meta itemprop="image" content="assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Profit Ultimate">
-<meta property="og:description" content="Profit Ultimate is an integral part of the cryptocurrency miner space. Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Ultimate allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+<meta property="og:title" content="Profit Elite">
+<meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
 <meta property="og:image" content="assets/images/seo/612d1ba9df6921630346153.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
@@ -78,7 +78,7 @@
     </script>
 </head>
 <body>
-<div class="preloader-area">
+<!-- <div class="preloader-area">
 <div class='coin'>
 <div class='front jump'>
 <div class='star'></div>
@@ -86,13 +86,13 @@
 <div class='shapes'>
 <div class='shape_l'></div>
 <div class='shape_r'></div>
-<span class='top'>ProfitUltimate</span>
-<span class='bottom'>ProfitUltimate</span>
+<span class='top'>ProfitElite</span>
+<span class='bottom'>ProfitElite</span>
 </div>
 </div>
 <div class='shadow'></div>
 </div>
-</div>
+</div> -->
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -100,7 +100,7 @@
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
+<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
 <div class="header-action">
@@ -164,7 +164,7 @@
 <div class="order-section pd-t-30 pd-b-80">
 <div class="row justify-content-center ml-b-30">
 <div class="col-lg-6 mrb-30 m-auto">
-<h3 class="text-center mb-3">Profit Ultimate Top 50 Referral Earners</h3>
+<h3 class="text-center mb-3">Profit Elite Top 50 Referral Earners</h3>
 <div class="order-table-area">
 <table class="order-table">
 <thead>
@@ -178,7 +178,7 @@
 <tbody>
 <tr>
 <td class="text-capitalize" data-label="S/N">1</td>
-<td data-label="Username">Profit Ultimate</td>
+<td data-label="Username">Profit Elite</td>
 <td data-label="Amount">₦4189530</td>
 <td data-label="Status">
 <span class="bg-success text-white py-1 px-3 small font-weight-bold rounded">Active</span>

@@ -37,21 +37,21 @@ echo "<script type='text/javascript'> document.location ='.'; </script>";
     <link rel="icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png" />
     <link href="fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <title> Profit Ultimate | Sign In</title>
-    <meta name="title" Content="Profit Ultimate - Sign In">
-    <meta name="description" content="Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Ultimate is built to be ready for whatever mining throws.">
-    <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Ultimate,Profit Ultimate,Profit Ultimate mining,Profit Ultimate mining">
+    <title> ProfitElite | Sign In</title>
+    <meta name="title" Content="ProfitElite - Sign In">
+    <meta name="description" content="ProfitElite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and ProfitElite is built to be ready for whatever mining throws.">
+    <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,ProfitElite,ProfitElite,ProfitElite mining,ProfitElite mining">
     <link rel="shortcut icon" href="assets/images/logoIcon/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="assets/images/logoIcon/logo.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Profit Ultimate - Sign In">
-    <meta itemprop="name" content="Profit Ultimate - Sign In">
+    <meta name="apple-mobile-web-app-title" content="ProfitElite - Sign In">
+    <meta itemprop="name" content="ProfitElite - Sign In">
     <meta itemprop="description" content="">
     <meta itemprop="image" content="assets/images/seo/612d1ba9df6921630346153.png">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Profit Ultimate">
-    <meta property="og:description" content="Profit Ultimate is an integral part of the cryptocurrency miner space. Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Ultimate allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+    <meta property="og:title" content="ProfitElite">
+    <meta property="og:description" content="ProfitElite is an integral part of the cryptocurrency miner space. ProfitElite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The ProfitElite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
     <meta property="og:image" content="assets/images/seo/612d1ba9df6921630346153.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="600" />
@@ -86,7 +86,7 @@ echo "<script type='text/javascript'> document.location ='.'; </script>";
 </head>
 
 <body>
-    <div class="preloader-area">
+    <!-- <div class="preloader-area">
         <div class='coin'>
             <div class='front jump'>
                 <div class='star'></div>
@@ -94,13 +94,13 @@ echo "<script type='text/javascript'> document.location ='.'; </script>";
                 <div class='shapes'>
                     <div class='shape_l'></div>
                     <div class='shape_r'></div>
-                    <span class='top'>Profit Ultimate</span>
-                    <span class='bottom'>Profit Ultimate</span>
+                    <span class='top'>ProfitElite</span>
+                    <span class='bottom'>ProfitElite</span>
                 </div>
             </div>
             <div class='shadow'></div>
         </div>
-    </div>
+    </div> -->
     <section class="register-section bg-overlay-primary bg_img" data-background="assets/images/frontend/banner/6040cb7e059681614859134.jpg">
         <div class="container">
             <div class="row register-area justify-content-center align-items-center">

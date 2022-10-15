@@ -29,21 +29,21 @@ $put= "<div class='header-action'>
 <link rel="icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png" />
 <link href="fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-<title> Profit Ultimate - how it works</title>
-<meta name="title" Content="Profit Ultimate - Home">
-<meta name="description" content="Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Ultimate is built to be ready for whatever mining throws.">
-<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Ultimate,Profit Ultimate,Profit Ultimate mining,Profit Ultimate mining">
+<title> Profit Elite - how it works</title>
+<meta name="title" Content="Profit Elite - Home">
+<meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Elite,Profit Elite,Profit Elite mining,Profit Elite mining">
 <link rel="shortcut icon" href="assets/images/logoIcon/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Profit Ultimate - Home">
-<meta itemprop="name" content="Profit Ultimate - Home">
+<meta name="apple-mobile-web-app-title" content="Profit Elite - Home">
+<meta itemprop="name" content="Profit Elite - Home">
 <meta itemprop="description" content="">
 <meta itemprop="image" content="assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Profit Ultimate">
-<meta property="og:description" content="Profit Ultimate is an integral part of the cryptocurrency miner space. Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Ultimate allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+<meta property="og:title" content="Profit Elite">
+<meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
 <meta property="og:image" content="assets/images/seo/612d1ba9df6921630346153.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
@@ -87,7 +87,7 @@ $put= "<div class='header-action'>
     </script>
 </head>
 <body>
-<div class="preloader-area">
+<!-- <div class="preloader-area">
 <div class='coin'>
 <div class='front jump'>
 <div class='star'></div>
@@ -95,13 +95,13 @@ $put= "<div class='header-action'>
 <div class='shapes'>
 <div class='shape_l'></div>
 <div class='shape_r'></div>
-<span class='top'>ProfitUltimate</span>
-<span class='bottom'>ProfitUltimate</span>
+<span class='top'>Profit Elite</span>
+<span class='bottom'>Profit Elite</span>
 </div>
 </div>
 <div class='shadow'></div>
 </div>
-</div>
+</div> -->
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -109,7 +109,7 @@ $put= "<div class='header-action'>
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
+<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
 <?php
@@ -203,19 +203,19 @@ $put= "<div class='header-action'>
 <div class="faq-item ">
 <h3 class="faq-title"><span class="title">After registration, what will I do to earn?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
-<p>Profit ultimate is a dual-purpose platform, it&#039;s either you mine to earn or earn through affiliate marketing.</p>
+<p>Profit Elite is a dual-purpose platform, it&#039;s either you mine to earn or earn through affiliate marketing.</p>
 </div>
 </div>
 <div class="faq-item ">
 <h3 class="faq-title"><span class="title">If I don’t have referrals, Will I earn?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
-<p>Absolutely, You will earn. Profit ultimate isn&#039;t a read news and comment- to-earn platform, and as such, no compulsory referral needed.</p>
+<p>Absolutely, You will earn. Profit Elite isn&#039;t a read news and comment- to-earn platform, and as such, no compulsory referral needed.</p>
 </div>
  </div>
 <div class="faq-item ">
 <h3 class="faq-title"><span class="title">How do I withdraw my earnings.</span><span class="right-icon"></span></h3>
 <div class="faq-content">
-<p>your earnings would be credited to your account after attaining Profit ultimate minimum withdrawal threshold.</p>
+<p>your earnings would be credited to your account after attaining Profit Elite minimum withdrawal threshold.</p>
 </div>
 </div>
 <div class="faq-item ">
@@ -243,13 +243,13 @@ $put= "<div class='header-action'>
 <div class="faq-item ">
 <h3 class="faq-title"><span class="title">If I join today, When will they pay me?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
-<p>You can withdraw your earnings when you attain Profit ultimate withdrawal threshold.</p>
+<p>You can withdraw your earnings when you attain Profit Elite withdrawal threshold.</p>
 </div>
 </div>
 <div class="faq-item ">
-<h3 class="faq-title"><span class="title">What is the difference between Profit ultimate and all these read news and comment to earn platforms?</span><span class="right-icon"></span></h3>
+<h3 class="faq-title"><span class="title">What is the difference between Profit Elite and all these read news and comment to earn platforms?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
-<p>Profit ultimate has a functional cash reservoir, they do not depend on Google Adsense before paying her members. Amount of AFGOLD supply daily is what they can afford to pay. The company is monitised in different ways to ensure consistent mining cash flow.</p>
+<p>Profit Elite has a functional cash reservoir, they do not depend on Google Adsense before paying her members. Amount of AFGOLD supply daily is what they can afford to pay. The company is monitised in different ways to ensure consistent mining cash flow.</p>
 </div>
 </div>
 </div>
@@ -262,7 +262,7 @@ $put= "<div class='header-action'>
 <div class="row justify-content-center">
 <div class="col-lg-8 text-center">
 <div class="section-header">
-<h2 class="section-title">Why Choose Profit ultimate?</h2>
+<h2 class="section-title">Why Choose Profit Elite?</h2>
 <span class="title-border"></span>
 <p>As an AFGOLD MINER, you get paid as you mine per minute without having to bring people before earning. We are combining all the key aspects of conducting an efficient cryptocurrency mining activity. From building a highly efficient data center to providing a robust mining system for our users.</p>
 </div>
@@ -322,7 +322,7 @@ $put= "<div class='header-action'>
 <div class="col-lg-4 col-sm-6 mrb-30">
 <div class="footer-widget widget-menu">
 <h3 class="widget-title">About Us</h3>
-<p>Profit ultimate is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
+<p>Profit Elite is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6 mrb-30">
@@ -351,9 +351,9 @@ $put= "<div class='header-action'>
 <div class="footer-widget widget-menu">
 <h3 class="widget-title">Contact Info</h3>
 <ul class="footer-list">
-<li>Call Us Now +234 812 645 2522</li>
+<li>Call Us Now +234 701 041 4251</li>
 <li><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="daa9afaaaab5a8ae9abbbca8b3b9bdb5b6bef4b9b5b7">[email&#160;protected]</a></li>
-<li>Profit ultimate Head Office, Lagos 125666, NG</li>
+<li>Profit Elite Head Office, Lagos 125666, NG</li>
 </ul>
 </div>
 </div>
@@ -391,7 +391,7 @@ $put= "<div class='header-action'>
 <div class="notification-text-block">
 <div class="notification-title">
 
-Profit ultimate Update
+Profit Elite Update
 
 </div>
 <div class="notification-text"></div>

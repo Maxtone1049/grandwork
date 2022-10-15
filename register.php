@@ -123,8 +123,8 @@ if (isset($_POST['action'])) {
                 <div class='shapes'>
                     <div class='shape_l'></div>
                     <div class='shape_r'></div>
-                    <span class='top'>ProfitUltimate</span>
-                    <span class='bottom'>ProfitUltimate</span>
+                    <span class='top'>ProfitElite</span>
+                    <span class='bottom'>ProfitElite</span>
                 </div>
             </div>
             <div class='shadow'></div>

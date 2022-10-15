@@ -253,7 +253,7 @@ $put= "<div class='header-action'>
 <div class="about-content">
 <h2 class="title">About Profit Elite</h2>
 <span class="title-border"></span>
-<p>Profit Elite is a dual-purpose platform made up of subsidiaries that provide an opportunity to utilize PUltimate Virtual mining technique, which is intended for evaluating mining revenue and as well as conversion of PUltimate units to real word money and cash out as at when due.</p>
+<p>Profit Elite is a dual-purpose platform made up of subsidiaries that provide an opportunity to utilize PElite Virtual mining technique, which is intended for evaluating mining revenue and as well as conversion of PElite units to real word money and cash out as at when due.</p>
 <div class="about-item-area ml-b-30">
 <div class="about-item d-flex flex-wrap align-items-center mrb-30">
 <div class="about-icon">
@@ -300,7 +300,7 @@ $put= "<div class='header-action'>
 <div class="col-lg-6 mrb-30">
 <div class="faq-wrapper">
 <div class="faq-item  active open ">
-<h3 class="faq-title"><span class="title">How much unit of PUltimate required for registration in naira?</span><span class="right-icon"></span></h3>
+<h3 class="faq-title"><span class="title">How much unit of PElite required for registration in naira?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
 <p>3000(0.3)/5000(0.5)</p>
 </div>
@@ -354,7 +354,7 @@ $put= "<div class='header-action'>
 <div class="faq-item ">
 <h3 class="faq-title"><span class="title">What is the difference between Profit Elite and all these read news and comment to earn platforms?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
-<p>Profit Elite has a functional cash reservoir, they do not depend on Google Adsense before paying her members. Amount of PUltimate supply daily is what they can afford to pay. The company is monitised in different ways to ensure consistent mining cash flow.</p>
+<p>Profit Elite has a functional cash reservoir, they do not depend on Google Adsense before paying her members. Amount of PElite supply daily is what they can afford to pay. The company is monitised in different ways to ensure consistent mining cash flow.</p>
 </div>
 </div>
 </div>
@@ -623,7 +623,7 @@ $put= "<div class='header-action'>
 <div class="section-header">
 <h2 class="section-title">Why Choose Profit Elite?</h2>
 <span class="title-border"></span>
-<p>As an PUltimate MINER, you get paid as you mine per minute without having to bring people before earning. We are combining all the key aspects of conducting an efficient cryptocurrency mining activity. From building a highly efficient data center to providing a robust mining system for our users.</p>
+<p>As an PElite MINER, you get paid as you mine per minute without having to bring people before earning. We are combining all the key aspects of conducting an efficient cryptocurrency mining activity. From building a highly efficient data center to providing a robust mining system for our users.</p>
 </div>
 </div>
 </div>

@@ -81,23 +81,6 @@ foreach($results as $row)
 </head>
 
 <body>
-    <div class="preloader-area">
-        <div class='coin'>
-            <div class='front jump'>
-                <div class='star'></div>
-                <span class='currency'>
-                    <i class="las la-coins"></i>
-                </span>
-                <div class='shapes'>
-                    <div class='shape_l'></div>
-                    <div class='shape_r'></div>
-                    <span class='top'>PROFIT ULTIMATE</span>
-                    <span class='bottom'>PROFIT ULTIMATE</span>
-                </div>
-            </div>
-            <div class='shadow'></div>
-        </div>
-    </div>
     <header class="header-section">
         <div class="header">
             <div class="header-bottom-area">
@@ -109,7 +92,7 @@ foreach($results as $row)
                 <div class="container">
                     <div class="header-menu-content">
                         <nav class="navbar navbar-expand-lg p-0">
-                            <a class="site-logo site-title" href="https://Profit Ultimatem.com">
+                            <a class="site-logo site-title" href="../.">
                                 <img src="../assets/images/logoIcon/logo.png" alt="site-logo">
                             </a>
                             <ul class="ml-auto">

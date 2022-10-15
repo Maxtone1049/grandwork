@@ -49,21 +49,21 @@ echo '<script>alert("Your current password is wrong")</script>';
         <link rel="icon" type="image/x-icon" href="../assets/images/logoIcon/favicon.png">
         <link rel="shortcut icon" type="image/x-icon" href="../assets/images/logoIcon/favicon.png"/>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <title>Profit ultimate - Change Password</title>
-        <meta name="title" Content="Profit ultimate - Change Password">
-        <meta name="description" content="Profit ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit ultimate is built to be ready for whatever mining throws.">
-        <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit,Profit ultimate,Profit mining,Profit ultimate mining">
+        <title>Profit Elite - Change Password</title>
+        <meta name="title" Content="Profit Elite - Change Password">
+        <meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+        <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit,Profit Elite,Profit mining,Profit Elite mining">
         <link rel="shortcut icon" href="../assets/images/logoIcon/favicon.png" type="image/x-icon">
         <link rel="apple-touch-icon" href="../assets/images/logoIcon/logo.png">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="Profit ultimate - Change Password">
-        <meta itemprop="name" content="Profit ultimate - Change Password">
+        <meta name="apple-mobile-web-app-title" content="Profit Elite - Change Password">
+        <meta itemprop="name" content="Profit Elite - Change Password">
         <meta itemprop="description" content="">
         <meta itemprop="image" content="../assets/images/seo/612d1ba9df6921630346153.png">
         <meta property="og:type" content="website">
-        <meta property="og:title" content="Profit ultimate">
-        <meta property="og:description" content="Profit ultimate is an integral part of the cryptocurrency miner space. Profit ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit ultimate allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+        <meta property="og:title" content="Profit Elite">
+        <meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
         <meta property="og:image" content="../assets/images/seo/612d1ba9df6921630346153.png"/>
         <meta property="og:image:type" content="image/png"/>
         <meta property="og:image:width" content="600"/>
@@ -112,23 +112,6 @@ return true;
         </script>
     </head>
     <body>
-        <div class="preloader-area">
-            <div class='coin'>
-                <div class='front jump'>
-                    <div class='star'></div>
-                    <span class='currency'>
-                        <i class="las la-coins"></i>
-                    </span>
-                    <div class='shapes'>
-                        <div class='shape_l'></div>
-                        <div class='shape_r'></div>
-                        <span class='top'>Profit ultimate</span>
-                        <span class='bottom'>Profit ultimate</span>
-                    </div>
-                </div>
-                <div class='shadow'></div>
-            </div>
-        </div>
         <header class="header-section">
             <div class="header">
                 <div class="header-bottom-area">

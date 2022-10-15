@@ -141,7 +141,7 @@ foreach($results as $row)
             </div>
         </section>
         <?php
-        include('\inc/footer.php');
+        include('../inc/footer.php');
         ?>
             <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script src="../../assets/templates/basic//js/jquery-3.3.1.min.js"></script>

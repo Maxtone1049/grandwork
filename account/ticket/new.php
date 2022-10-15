@@ -29,21 +29,21 @@ foreach($results as $row)
     <link rel="icon" type="image/x-icon" href="../../assets/images/logoIcon/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/logoIcon/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Profit Ultimate - Support Tickets</title>
-    <meta name="title" Content="Profit Ultimate - Support Tickets">
-    <meta name="description" content="Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Ultimate is built to be ready for whatever mining throws.">
-    <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Ultimate,Profit Ultimate,Profit Ultimate mining,Profit Ultimate mining">
+    <title>Profit Elite - Support Tickets</title>
+    <meta name="title" Content="Profit Elite - Support Tickets">
+    <meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+    <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Elite,Profit Elite,Profit Elite mining,Profit Elite mining">
     <link rel="shortcut icon" href="../../assets/images/logoIcon/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="../../assets/images/logoIcon/logo.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Profit Ultimate - Support Tickets">
-    <meta itemprop="name" content="Profit Ultimate - Support Tickets">
+    <meta name="apple-mobile-web-app-title" content="Profit Elite - Support Tickets">
+    <meta itemprop="name" content="Profit Elite - Support Tickets">
     <meta itemprop="description" content="">
     <meta itemprop="image" content="../../assets/images/seo/612d1ba9df6921630346153.png">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Profit Ultimate">
-    <meta property="og:description" content="Profit Ultimate is an integral part of the cryptocurrency miner space. Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Ultimate allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+    <meta property="og:title" content="Profit Elite">
+    <meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
     <meta property="og:image" content="../../assets/images/seo/612d1ba9df6921630346153.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="600" />
@@ -69,35 +69,9 @@ foreach($results as $row)
 
         gtag('config', 'UA-198044238-4');
     </script>
-    <!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-        window.OneSignal = window.OneSignal || [];
-        OneSignal.push(function() {
-            OneSignal.init({
-                appId: "c44ccaed-ccd2-4f08-a81d-8a17a0965fc7",
-            });
-        });
-    </script> -->
 </head>
 
 <body>
-    <div class="preloader-area">
-        <div class='coin'>
-            <div class='front jump'>
-                <div class='star'></div>
-                <span class='currency'>
-                    <i class="las la-coins"></i>
-                </span>
-                <div class='shapes'>
-                    <div class='shape_l'></div>
-                    <div class='shape_r'></div>
-                    <span class='top'>Profit Ultimate</span>
-                    <span class='bottom'>Profit Ultimate</span>
-                </div>
-            </div>
-            <div class='shadow'></div>
-        </div>
-    </div>
     <header class="header-section">
         <div class="header">
             <div class="header-bottom-area">

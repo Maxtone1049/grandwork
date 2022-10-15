@@ -237,14 +237,14 @@ $put= "<div class='header-action'>
 <div class="contact-info-item item-one">
 <i class="fas fa-envelope"></i>
 <h3 class="title">Email Address</h3>
-<p><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="6d1e181d1d021f192d0c0b1f040e0a020109430e0200">[email&#160;protected]</a></p>
+<p><a href="mailto:support@profit-elite.online" class="__cf_email__" >support@profit-elite.online</a></p>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 col-sm-8 text-center mrb-30">
 <div class="contact-info-item item-two">
 <i class="fas fa-phone-alt"></i>
 <h3 class="title">Phone Number</h3>
-<p>+234 812 645 2522</p>
+<p>+234 701 041 4251</p>
 </div>
 </div>
 </div>
@@ -264,7 +264,7 @@ $put= "<div class='header-action'>
 <div class="about-content">
 <h2 class="title">About Profit Elite</h2>
 <span class="title-border"></span>
-<p>Profit Elite is a dual-purpose platform made up of subsidiaries that provide an opportunity to utilize PULTIMATE Virtual mining technique, which is intended for evaluating mining revenue and as well as conversion of PULTIMATE units to real word money and cash out as at when due.</p>
+<p>Profit Elite is a dual-purpose platform made up of subsidiaries that provide an opportunity to utilize PELITE Virtual mining technique, which is intended for evaluating mining revenue and as well as conversion of PELITE units to real word money and cash out as at when due.</p>
 <div class="about-item-area ml-b-30">
 <div class="about-item d-flex flex-wrap align-items-center mrb-30">
 <div class="about-icon">

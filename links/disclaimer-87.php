@@ -1,8 +1,25 @@
+<?php
+session_start();
+error_reporting(0);
+include '../includes/dbconnect.php';
+if (strlen($_SESSION['obcsuid']>0)) {
+
+$uid=$_SESSION['obcsuid'];
+$put= "<div class='header-action'>
+<a href='../account/dashboard' class='cmn-btn-active'>Dashboard</a>
+</div>";
+
+  
+}else {
+    $out= " <div class='header-action'>
+    <a href='../register' class='cmn-btn'>Register</a>
+  <a href='../login' class='cmn-btn-active'>Login</a>
+    </div>";
+}
+?>
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
-
-<!-- Mirrored from afrigoldm.com/links/disclaimer-87 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 00:14:28 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 
 <meta charset="utf-8">
@@ -10,21 +27,21 @@
 <link rel="icon" type="image/x-icon" href="../assets/images/logoIcon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="../assets/images/logoIcon/favicon.png" />
 <link href="../../fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-<title> AfricGold - Disclaimer</title>
-<meta name="title" Content="AfricGold - Disclaimer">
-<meta name="description" content="AfricGold is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and AfricGold is built to be ready for whatever mining throws.">
-<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,AfriGold,AfricGold,Afrigold mining,Africgold mining">
+<title> Profit Elite - Disclaimer</title>
+<meta name="title" Content="ProfitElite - Disclaimer">
+<meta name="description" content="ProfitElite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and ProfitElite is built to be ready for whatever mining throws.">
+<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,PROELITE,ProfitElite,ProfitElite mining,ProfitElite mining">
 <link rel="shortcut icon" href="../assets/images/logoIcon/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="../assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="AfricGold - Disclaimer">
-<meta itemprop="name" content="AfricGold - Disclaimer">
+<meta name="apple-mobile-web-app-title" content="ProfitElite - Disclaimer">
+<meta itemprop="name" content="ProfitElite - Disclaimer">
 <meta itemprop="description" content="">
 <meta itemprop="image" content="../assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="AfricGold">
-<meta property="og:description" content="Africgold is an integral part of the cryptocurrency miner space. AfricGold is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The AfricGold allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+<meta property="og:title" content="ProfitElite">
+<meta property="og:description" content="ProfitElite is an integral part of the cryptocurrency miner space. ProfitElite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The ProfitElite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
 <meta property="og:image" content="../assets/images/seo/612d1ba9df6921630346153.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
@@ -68,21 +85,7 @@
     </script>
 </head>
 <body>
-<div class="preloader-area">
-<div class='coin'>
-<div class='front jump'>
-<div class='star'></div>
-<span class='currency'><i class="las la-coins"></i></span>
-<div class='shapes'>
-<div class='shape_l'></div>
-<div class='shape_r'></div>
-<span class='top'>AfricGold</span>
-<span class='bottom'>AfricGold</span>
-</div>
-</div>
-<div class='shadow'></div>
-</div>
-</div>
+
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -93,10 +96,14 @@
 <span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
 </div>
 <div class="header-right-info">
-<div class="header-action">
-<a href="../register.html" class="cmn-btn">Register</a>
-<a href="../login.html" class="cmn-btn-active">Login</a>
-</div>
+<?php
+                   if ($_SESSION['obcsuid']>0) {
+                       echo $put;
+                    }else {
+                    echo $out;
+                  }
+                    
+                    ?>
 </div>
 </div>
 </div>
@@ -120,8 +127,14 @@
  <li><a href="../pin-dispatcher.html">Dispatchers</a></li>
 <li><a href="../top-earners.html">Top Earners</a></li>
 <div class="header-small">
-<a href="../register.html" class="cmn-btn">Register</a>
-<a href="../login.html" class="cmn-btn-active">Login</a>
+<?php
+                   if ($_SESSION['obcsuid']>0) {
+                       echo $put;
+                    }else {
+                    echo $out;
+                  }
+                    
+                    ?>
 </div>
 </ul>
 </div>
@@ -132,7 +145,7 @@
 </div>
 </header>
 <a href="#" class="scrollToTop"><i class="fa fa-angle-double-up"></i></a>
-<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="https://afrigoldm.com/assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
+<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="../assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
 <div class="container">
 <div class="row justify-content-center align-items-center ml-b-30">
 <div class="col-lg-10 text-center mrb-30">
@@ -155,14 +168,14 @@
 <div class="container">
 <div class="wb-break-all"><p class="MsoNormal">MEMBER EXPRESSLY AGREES THAT USE OF THE SERVICE IS AT
 MEMBERS SOLE RISK. THE SERVICE IS PROVIDED ON TO THE MAXIMUM EXTENT ALLOWED BY
-APPLICABLE NIGERIAN LAW, AFRIGOLD EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND,
+APPLICABLE NIGERIAN LAW, PROELITE EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND,
 EXPRESS OR IMPLIED BY LAW, CUSTOM OR OTHERWISE, INCLUDING WITHOUT LIMITATION
 ANY WARRANTY OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR
-PURPOSE OR NON-INFRINGEMENT. AFRIGOLD MAKES NO WARRANTY REGARDING ANY GOODS OR
+PURPOSE OR NON-INFRINGEMENT. PROELITE MAKES NO WARRANTY REGARDING ANY GOODS OR
 SERVICES PURCHASED OR OBTAINED THROUGH THE PROGRAM OR ANY TRANSACTIONS ENTERED
 INTO THROUGH THE PROGRAM.</p>
 <p class="MsoNormal">TO THE MAXIMUM EXTENT ALLOWED BY APPLICABLE NIGERIAN LAW,
-NEITHER AFRIGOLD NOR ANY OF ITS MEMBERS, SUBSIDIARIES, PUBLISHERS, SERVICE
+NEITHER PROELITE NOR ANY OF ITS MEMBERS, SUBSIDIARIES, PUBLISHERS, SERVICE
 PROVIDERS, LICENSORS, OFFICERS, DIRECTORS OR EMPLOYEES SHALL BE LIABLE FOR ANY
 DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF
 OR RELATING TO THIS AGREEMENT, RESULTING FROM THE USE OR THE INABILITY TO USE
@@ -173,17 +186,17 @@ ACCESS TO OR ALTERATION OF USERS TRANSMISSIONS OR DATA, INCLUDING BUT NOT
 LIMITED TO, DAMAGES FOR LOSS OF PROFITS, USE, DATA OR OTHER INTANGIBLE, EVEN IF
 SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
 <p class="MsoNormal">To prevent unauthorized access, maintain data accuracy, and
-ensure the correct use of information, AFRIGOLD uses appropriate industry
+ensure the correct use of information, PROELITE uses appropriate industry
 standard procedures to safeguard the confidentiality of Members personal
 information, such as SSL, firewall, encryption, token authentication,
 application proxies, monitoring technology, and adaptive analysis of the Websites
-traffic to track abuse of the AfriGold Website and its data. However, no data
-transmitted over the Internet can be 100% secure. As a result, while afrigoldm
-strives to protect its members personal information, africgold cannot guarantee
+traffic to track abuse of the PROELITE Website and its data. However, no data
+transmitted over the Internet can be 100% secure. As a result, while PROELITEm
+strives to protect its members personal information, ProfitElite cannot guarantee
 the security of any information that Members transmit to or from the
 participating advertisers/merchants and Member does so at his/her own risk.</p>
 <p class="MsoNormal">This Agreement constitutes the entire Agreement between
-Member and AFRIGOLD in connection with general membership in AFRIGOLD and
+Member and PROELITE in connection with general membership in PROELITE and
 supersedes all prior agreements between the parties regarding the subject
 matter contained herein. If any provision of this AGREEMENT is found invalid or
 unenforceable, that provision will be enforced to the maximum extent
@@ -196,89 +209,7 @@ before litigation.</p>
 </div>
 </div>
 </div>
-<footer class="footer-section ptb-80">
-<div class="container">
-<div class="footer-area">
-<div class="row ml-b-30">
-<div class="col-lg-4 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">About Us</h3>
-<p>AfriGold is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Quick Links</h3>
-<ul class="footer-list">
-<li><a href="../about-us.html">About</a></li>
-<li><a href="../how-it-works.html">How it Works</a></li>
-<li><a href="../blogs.html">Blog</a></li>
-<li><a href="../contact.html">Contact</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-2 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Useful Links</h3>
-<ul class="footer-list">
-<li><a href="disclaimer-87.html">Disclaimer</a></li>
-<li><a href="cookie-policy-83.html">Cookie Policy</a></li>
-<li><a href="terms-of-service-78.html">Terms of Service</a></li>
-<li><a href="privacy-policy-77.html">Privacy Policy</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">Contact Info</h3>
-<ul class="footer-list">
-<li>Call Us Now +234 812 645 2522</li>
-<li><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="d0a3a5a0a0bfa2a490b1b6a2b9b3b7bfbcb4feb3bfbd">[email&#160;protected]</a></li>
-<li>AfricGold Head Office, Lagos 125666, NG</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-12">
- <div class="social-area d-flex justify-content-center">
-<ul class="footer-social">
-<li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-<li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<div class="privacy-area privacy-area--style">
-<div class="container">
-<div class="copyright-area d-flex flex-wrap align-items-center justify-content-center">
-<div class="copyright">
-<p>COPYRIGHT © 2021 ALL RIGHTS RESERVED</p>
-</div>
-</div>
-</div>
-</div>
-
-<div id="notification-1" class="notification">
-<div class="notification-block">
-<div class="notification-img">
-
-<img src="../assets/images/logoIcon/favicon.png" aria-hidden="true"></img>
-
-</div>
-<div class="notification-text-block">
-<div class="notification-title">
-
-AfricGold Update
-
-</div>
-<div class="notification-text"></div>
-</div>
-</div>
-</div>
+<?php include ('../footer.php')?>
 
 
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/templates/basic/js/jquery-3.3.1.min.js"></script>
@@ -326,52 +257,11 @@ AfricGold Update
     'use strict';
     (function($){
         $(document).on("change", ".select-bar", function() {
-            window.location.href = "https://afrigoldm.com/change/"+$(this).val() ;
+            window.location.href = "./change/"+$(this).val() ;
         });
 
         $('.select-bar').val('en');
     })(jQuery)
 </script>
-<script>
-
-    $(document).ready(function() {
-        $('#notification-1').Notification({
-            // Notification varibles
-            Varible1: ["David","Jack","Olivia","Samuel","Thomas","William","Adam","Dylan","Luke","Matthew","Ethan","Nathan","Archie","Oscar","Lucas","Isaac","Tom","Gabriel","Reuben","Sean","Jude","Leon","Tanaka","Sasaki","Kimura","Yamada","Hayashi","Ogawa","Lisa","Grete","Sandra","Anna","Kati","Stacy","Jane"],
-            Varible2: ["Ikeja","Lagos","Kaduna","Kwara","Delta","Ghana","Cameroon","Makurdi","Uyo","Eket","Awka","Enugu","Kebbi","Jos","Kogi","Nasarrawa","Kebbi","Lokoja","Abia"],
-            Varible3: ["registerd", "started mining", "referred"],
-            Amount: [100, 50000],
-            Content: '[Varible1] from [Varible2] has just [Varible3].',
-            // Timer
-            Show: ['random', 5, 10],
-            Close: 5,
-            Time: [0, 23],
-            // Notification style
-            LocationTop: [false, '5%'],
-            LocationBottom:[true, '5%'],
-            LocationRight: [false, '5px'],
-            LocationLeft:[true, '10px'],
-            Background: '#252c40',
-            BorderRadius: 5,
-            BorderWidth: 3,
-            BorderColor: 'gold',
-            TextColor: 'white',
-            IconColor: 'orange',
-            // Notification Animated
-            AnimationEffectOpen: 'fadeInUp',
-            AnimationEffectClose: 'fadeOutDown',
-            // Number of notifications
-            Number: 100,
-            // Notification link
-            Link: [false, '#']
-
-        });
-
-
-    });
-
-</script>
 </body>
-
-<!-- Mirrored from afrigoldm.com/links/disclaimer-87 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 00:14:28 GMT -->
 </html>

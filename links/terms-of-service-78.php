@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 
-<!-- Mirrored from afrigoldm.com/links/terms-of-service-78 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 00:14:28 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 
 <meta charset="utf-8">
@@ -10,21 +9,21 @@
 <link rel="icon" type="image/x-icon" href="../assets/images/logoIcon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="../assets/images/logoIcon/favicon.png" />
 <link href="../../fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-<title> AfricGold - Terms of Service</title>
-<meta name="title" Content="AfricGold - Terms of Service">
-<meta name="description" content="AfricGold is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and AfricGold is built to be ready for whatever mining throws.">
-<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,AfriGold,AfricGold,Afrigold mining,Africgold mining">
+<title> Profit Elite - Terms of Service</title>
+<meta name="title" Content="Profit Elite - Terms of Service">
+<meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Elite,Profit Elite,Profit Elite mining,Profit Elite mining">
 <link rel="shortcut icon" href="../assets/images/logoIcon/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="../assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="AfricGold - Terms of Service">
-<meta itemprop="name" content="AfricGold - Terms of Service">
+<meta name="apple-mobile-web-app-title" content="Profit Elite - Terms of Service">
+<meta itemprop="name" content="Profit Elite - Terms of Service">
 <meta itemprop="description" content="">
 <meta itemprop="image" content="../assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="AfricGold">
-<meta property="og:description" content="Africgold is an integral part of the cryptocurrency miner space. AfricGold is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The AfricGold allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+<meta property="og:title" content="Profit Elite">
+<meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
 <meta property="og:image" content="../assets/images/seo/612d1ba9df6921630346153.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
@@ -76,8 +75,8 @@
 <div class='shapes'>
 <div class='shape_l'></div>
 <div class='shape_r'></div>
-<span class='top'>AfricGold</span>
-<span class='bottom'>AfricGold</span>
+<span class='top'>Profit Elite</span>
+<span class='bottom'>Profit Elite</span>
 </div>
 </div>
 <div class='shadow'></div>
@@ -132,7 +131,7 @@
 </div>
 </header>
 <a href="#" class="scrollToTop"><i class="fa fa-angle-double-up"></i></a>
-<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="https://afrigoldm.com/assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
+<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="./assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
 <div class="container">
 <div class="row justify-content-center align-items-center ml-b-30">
 <div class="col-lg-10 text-center mrb-30">
@@ -157,21 +156,21 @@
 <p class="MsoNormal"><b>TERMS OF SERVICE</b></p>
 <p class="MsoNormal"><b>Introduction </b></p>
 <p class="MsoNormal">The following Terms and Conditions control your membership
-on AFRIGOLD  You agree that you have read and understand this
-Agreement  and that your membership on AFRIGOLD shall be subject to the
-following Terms and Conditions between you AFRIGOLD MINING PLATFORM. </p>
+on Profit Elite  You agree that you have read and understand this
+Agreement  and that your membership on Profit Elite shall be subject to the
+following Terms and Conditions between you Profit Elite MINING PLATFORM. </p>
 <p class="MsoNormal">These Terms and Conditions may be modified at any time by
-AFRIGOLD Administrators without notice. Please review them from time to time
+Profit Elite Administrators without notice. Please review them from time to time
 since your ongoing use is subject to the terms and conditions as modified. Your
-continued participation in AFRIGOLD after such modification shall be deemed to
+continued participation in Profit Elite after such modification shall be deemed to
 be your acceptance of any such modification. If you do not agree to these Terms
-and Conditions, please do not register to become a member of AFRIGOLD.</p>
+and Conditions, please do not register to become a member of Profit Elite.</p>
 <p class="MsoNormal"><b>Terms of Participation </b></p>
 <p class="MsoNormal">Member must be 18 years of age or older to participate.
-Members must provide Afrigoldm with accurate, complete and updated
+Members must provide Profit Elite with accurate, complete and updated
 registration information, including but not limited to an accurate name,
 mailing address and email address. </p>
-<p class="MsoNormal">To the full extent allowed by applicable law, AFRIGOLD at
+<p class="MsoNormal">To the full extent allowed by applicable law, Profit Elite at
 its sole discretion and for any or no reason may refuse to accept applications
 for membership. </p>
 <p class="MsoNormal"> </p>
@@ -188,16 +187,16 @@ without authorization from that person.</p>
 </span></span></span>Use a false or misleading name (Except for
 privacy), mailing address, or email address to activate or use a member
 account. </p>
-<p class="MsoNormal">By signing up for the AFRIGOLD, member is opting-in to
-receive other special offer emails from AFRIGOLD. If you do not wish to
+<p class="MsoNormal">By signing up for the Profit Elite, member is opting-in to
+receive other special offer emails from Profit Elite. If you do not wish to
 receive these emails, you may cancel your account anytime. </p>
-<p class="MsoNormal">AFRIGOLD reserves the right to track Member activity by
+<p class="MsoNormal">Profit Elite reserves the right to track Member activity by
 both IP Address as well as individual browser activity. </p>
 <p class="MsoNormal">Member agrees not to abuse his or her membership privileges
 by acting in a manner inconsistent with this Agreement. </p>
 <p class="MsoNormal"> </p>
 <p class="MsoNormal">Member agrees not to attempt to earn through other means
-than the legitimate channels authorized by AFRIGOLD. </p>
+than the legitimate channels authorized by Profit Elite. </p>
 <p class="MsoNormal">Member agrees not to participate in any fraudulent behavior
 of any kind.</p>
 <p class="MsoNormal">Spamming is strictly prohibited. Any spamming done to
@@ -206,12 +205,12 @@ forfeiture of your account earning balance. Incidents will be dealt with on a ca
 basis. </p>
 <p class="MsoNormal">Refund Policy: As we are offering non-tangible virtual
 digital goods which is form of registration fee , we do not generally issue
-refunds after the purchase Of AFRICGOLD UNIT has been made. Please note that by
+refunds after the purchase Of Profit Elite UNIT has been made. Please note that by
 purchasing any of the AFGOLD UNITS , you agree to the no Refund Policy.</p>
 <p class="MsoNormal"><b>Membership activities, Mining, trend post sharing and
 recruiting: </b></p>
 <p class="MsoNormal">Administrators, Editors and Moderators reserve the right to
-approve or disapprove contents or comments posted on the AfriGold Forum. As an
+approve or disapprove contents or comments posted on the Profit Elite Forum. As an
 AFGOLD MINER, you will only mine and get a revenue shared paid to your bank
 account when you abide by the following rules: </p>
 <p class="MsoNormal">TREND POST sharing must correspond with the post date and
@@ -243,109 +242,27 @@ discontinue participation in AFGOLD and properly terminate his or her
 membership. </p></div>
 </div>
 </div>
-<footer class="footer-section ptb-80">
-<div class="container">
-<div class="footer-area">
-<div class="row ml-b-30">
-<div class="col-lg-4 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">About Us</h3>
-<p>AfriGold is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Quick Links</h3>
-<ul class="footer-list">
-<li><a href="../about-us.html">About</a></li>
-<li><a href="../how-it-works.html">How it Works</a></li>
-<li><a href="../blogs.html">Blog</a></li>
-<li><a href="../contact.html">Contact</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-2 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Useful Links</h3>
-<ul class="footer-list">
-<li><a href="disclaimer-87.html">Disclaimer</a></li>
-<li><a href="cookie-policy-83.html">Cookie Policy</a></li>
-<li><a href="terms-of-service-78.html">Terms of Service</a></li>
-<li><a href="privacy-policy-77.html">Privacy Policy</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">Contact Info</h3>
-<ul class="footer-list">
-<li>Call Us Now +234 812 645 2522</li>
-<li><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="ea999f9a9a85989eaa8b8c9883898d85868ec4898587">[email&#160;protected]</a></li>
-<li>AfricGold Head Office, Lagos 125666, NG</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-12">
-<div class="social-area d-flex justify-content-center">
-<ul class="footer-social">
-<li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-<li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<div class="privacy-area privacy-area--style">
-<div class="container">
-<div class="copyright-area d-flex flex-wrap align-items-center justify-content-center">
-<div class="copyright">
-<p>COPYRIGHT © 2021 ALL RIGHTS RESERVED</p>
-</div>
-</div>
-</div>
-</div>
-
-<div id="notification-1" class="notification">
-<div class="notification-block">
-<div class="notification-img">
- 
-<img src="../assets/images/logoIcon/favicon.png" aria-hidden="true"></img>
-
-</div>
-<div class="notification-text-block">
-<div class="notification-title">
-
-AfricGold Update
-
-</div>
-<div class="notification-text"></div>
-</div>
-</div>
-</div>
+<?php include ('./footer.php')?>
 
 
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/templates/basic/js/jquery-3.3.1.min.js"></script>
 
-<script src="../assets/templates/basic/js/jquery-migrate-3.0.0.js"></script>
+<script src="./assets/templates/basic/js/jquery-migrate-3.0.0.js"></script>
 
-<script src="../assets/templates/basic/js/bootstrap.min.js"></script>
-<script src="../assets/templates/basic/js/swiper.min.js"></script>
+<script src="./assets/templates/basic/js/bootstrap.min.js"></script>
+<script src="./assets/templates/basic/js/swiper.min.js"></script>
 
-<script src="../assets/templates/basic/js/jquery.nice-select.js"></script>
+<script src="./assets/templates/basic/js/jquery.nice-select.js"></script>
 
-<script src="../assets/templates/basic/js/chart.js"></script>
+<script src="./assets/templates/basic/js/chart.js"></script>
 
-<script src="../assets/templates/basic/js/wow.min.js"></script>
+<script src="./assets/templates/basic/js/wow.min.js"></script>
 
-<script src="../assets/templates/basic/js/particles.js"></script>
+<script src="./assets/templates/basic/js/particles.js"></script>
 
-<script src="../assets/templates/basic/js/main.js"></script>
+<script src="./assets/templates/basic/js/main.js"></script>
 
-<script src="../assets/templates/basic/js/jquery.fake-notification.min.js"></script>
+<script src="./assets/templates/basic/js/jquery.fake-notification.min.js"></script>
 <link rel="stylesheet" href="../assets/admin/css/iziToast.min.css">
 <script src="../assets/admin/js/iziToast.min.js"></script>
 <script>
@@ -373,52 +290,11 @@ AfricGold Update
     'use strict';
     (function($){
         $(document).on("change", ".select-bar", function() {
-            window.location.href = "https://afrigoldm.com/change/"+$(this).val() ;
+            window.location.href = "./change/"+$(this).val() ;
         });
 
         $('.select-bar').val('en');
     })(jQuery)
 </script>
-<script>
-
-    $(document).ready(function() {
-        $('#notification-1').Notification({
-            // Notification varibles
-            Varible1: ["David","Jack","Olivia","Samuel","Thomas","William","Adam","Dylan","Luke","Matthew","Ethan","Nathan","Archie","Oscar","Lucas","Isaac","Tom","Gabriel","Reuben","Sean","Jude","Leon","Tanaka","Sasaki","Kimura","Yamada","Hayashi","Ogawa","Lisa","Grete","Sandra","Anna","Kati","Stacy","Jane"],
-            Varible2: ["Ikeja","Lagos","Kaduna","Kwara","Delta","Ghana","Cameroon","Makurdi","Uyo","Eket","Awka","Enugu","Kebbi","Jos","Kogi","Nasarrawa","Kebbi","Lokoja","Abia"],
-            Varible3: ["registerd", "started mining", "referred"],
-            Amount: [100, 50000],
-            Content: '[Varible1] from [Varible2] has just [Varible3].',
-            // Timer
-            Show: ['random', 5, 10],
-            Close: 5,
-            Time: [0, 23],
-            // Notification style
-            LocationTop: [false, '5%'],
-            LocationBottom:[true, '5%'],
-            LocationRight: [false, '5px'],
-            LocationLeft:[true, '10px'],
-            Background: '#252c40',
-            BorderRadius: 5,
-            BorderWidth: 3,
-            BorderColor: 'gold',
-            TextColor: 'white',
-            IconColor: 'orange',
-            // Notification Animated
-            AnimationEffectOpen: 'fadeInUp',
-            AnimationEffectClose: 'fadeOutDown',
-            // Number of notifications
-            Number: 100,
-            // Notification link
-            Link: [false, '#']
-
-        });
-
-
-    });
-
-</script>
 </body>
-
-<!-- Mirrored from afrigoldm.com/links/terms-of-service-78 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 00:14:28 GMT -->
 </html>

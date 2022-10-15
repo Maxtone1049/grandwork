@@ -6,7 +6,7 @@
 }
 
 .header-bottom-area .navbar-collapse .main-menu li a:hover, .cmn-btn:focus, .cmn-btn:hover, .about-section .about-content .about-item-area .about-item .about-details .title, .service-icon i, .custom-btn, .blog-item:hover .blog-content .title, .choose-section .choose-item-area .choose-item .choose-icon i, .footer-social li a:hover, .footer-social li a.active, .breadcrumb li, .contact-info-item i, .dashboard-section .dash-item .dash-content .sub-title span, .section-title span, .account-header .sub-title a, .register-section .register-form-area .register-form .forgot-password a, .work-section .work-content .work-item-area .work-item .work-icon i, .badge-primary, .text-primary{
-    color: #b2991b !important;
+    color: red !important;
 }
 
 .title-border::before, #overlayer .loader, .pricing-tab-menu .nav-item .nav-link.active, .pagination .page-item.active .page-link, .pagination .page-item:hover .page-link, .dashboard-section .dash-user-area .dash-left-user-area .user-icon, .title-border-left::before, .modal .form-control, .input-group-text, .work-section .work-content .work-item-area .work-item .work-icon, .badge-primary {

@@ -4231,7 +4231,7 @@ a:hover,a:active {
 }
 
 .dashboard-section .dash-user-area .dash-left-user-area .user-icon {
-    border: 5px solid #27ae61;
+    border: 5px solid red;
     width: 100px;
     height: 100px;
     overflow: hidden
@@ -4267,7 +4267,7 @@ a:hover,a:active {
 }
 
 .dashboard-section .dash-user-area .dash-left-user-area .user-details .title {
-    background-color: #27ae61;
+    background-color: red;
     color: #fff;
     padding: 15px 10px;
     font-weight: 700;

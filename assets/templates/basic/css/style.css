@@ -52,11 +52,11 @@ a,a:focus,a:hover {
 }
 
 *::-webkit-scrollbar-button {
-    background-color: #27ae61
+    background-color: red
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #27ae61
+    background-color: red
 }
 
 h1,h2,h3,h4,h5,h6 {

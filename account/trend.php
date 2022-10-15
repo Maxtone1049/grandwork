@@ -152,11 +152,11 @@ foreach($results as $row)
                                 </div>
                                 <div class="blog-content">
                                     <h3 class="title">
-                                        <a href="../trend/179/profitultimate-is-the-most-stable-virtual-mining-platform-in-nigeria">Profit Elite is the most stable virtual mining platform in Nigeria.</a>
+                                        <a href="../trend/179/profitelite-is-the-most-stable-virtual-mining-platform">Profit Elite is the most stable virtual mining platform in Nigeria.</a>
                                     </h3>
                                     <p>Profit Elite has proven to be the most stable/reliable virtual mining platform in N...</p>
                                     <div class="blog-btn">
-                                        <a href="../trend/179/profitultimate-is-the-most-stable-virtual-mining-platform-in-nigeria" class="custom-btn">
+                                        <a href="../trend/179/profitelite-is-the-most-stable-virtual-mining-platform" class="custom-btn">
                                             Read More <i class="fas fa-angle-double-right"></i>
                                         </a>
                                     </div>
@@ -171,11 +171,11 @@ foreach($results as $row)
                                 </div>
                                 <div class="blog-content">
                                     <h3 class="title">
-                                        <a href="../trend/178/profitultimate-is-a-rock-solid-project-that-would-never-wavers">Profit Elite is a Rock solid project that would never wavers!</a>
+                                        <a href="../trend/178/profitelite-is-a-rock-solid-project-that-would-never-wavers">Profit Elite is a Rock solid project that would never wavers!</a>
                                     </h3>
                                     <p>If you've joined other income platforms; it's pertinent to lend credence to the...</p>
                                     <div class="blog-btn">
-                                        <a href="../trend/178/profitultimate-is-a-rock-solid-project-that-would-neever-wavers" class="custom-btn">
+                                        <a href="../trend/178/profitelite-is-a-rock-solid-project-that-would-never-wavers" class="custom-btn">
                                             Read More <i class="fas fa-angle-double-right"></i>
                                         </a>
                                     </div>

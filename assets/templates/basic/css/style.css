@@ -5535,7 +5535,7 @@ blockquote .quote-content {
 }
 
 .upgrade {
-    background-color: #272d43;
+    background-color: #fff;
     font-size: 14px;
     font-weight: 700;
     margin-right: 10px;
@@ -5547,7 +5547,7 @@ blockquote .quote-content {
 }
 
 .nav-item.upgrade .nav-link {
-    color: #fff!important
+    color: red!important
 }
 
 .nav-link {

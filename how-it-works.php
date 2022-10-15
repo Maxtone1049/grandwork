@@ -195,7 +195,7 @@ $put= "<div class='header-action'>
 <div class="col-lg-6 mrb-30">
 <div class="faq-wrapper">
 <div class="faq-item  active open ">
-<h3 class="faq-title"><span class="title">How much unit of PULTIMATE is required for registration in naira?</span><span class="right-icon"></span></h3>
+<h3 class="faq-title"><span class="title">How much unit of PElite is required for registration in naira?</span><span class="right-icon"></span></h3>
 <div class="faq-content">
 <p>3000(0.3)/5000(0.5)</p>
 </div>

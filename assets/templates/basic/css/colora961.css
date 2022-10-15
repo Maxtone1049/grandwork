@@ -10,7 +10,7 @@
 }
 
 .title-border::before, #overlayer .loader, .pricing-tab-menu .nav-item .nav-link.active, .pagination .page-item.active .page-link, .pagination .page-item:hover .page-link, .dashboard-section .dash-user-area .dash-left-user-area .user-icon, .title-border-left::before, .modal .form-control, .input-group-text, .work-section .work-content .work-item-area .work-item .work-icon, .badge-primary {
-    border-color: #b2991b;
+    border-color: red;
 }
 
 .pagination .page-item.disabled span {

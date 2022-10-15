@@ -93,7 +93,7 @@ $put= "<div class='header-action'>
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
+<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
 <?php
@@ -113,19 +113,19 @@ $put= "<div class='header-action'>
 <div class="container">
 <div class="header-menu-content">
 <nav class="navbar navbar-expand-lg p-0">
-<a class="site-logo site-title" href="../index.html"><img src="../assets/images/logoIcon/logo.png" alt="site-logo"></a>
+<a class="site-logo site-title" href="../."><img src="./../assets/images/logoIcon/logo.png" alt="site-logo"></a>
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="fas fa-bars"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav main-menu ml-auto mr-auto">
-<li><a href="../index.html" class="active">Home</a></li>
-<li><a href="../about-us.html">About</a></li>
-<li><a href="../how-it-works.html">How it Works</a></li>
-<li><a href="../contact.html">Contact</a></li>
-<li><a href="../verify/pin.html">Verify Pin</a></li>
-<li><a href="../pin-dispatcher.html">Dispatchers</a></li>
-<li><a href="../top-earners.html">Top Earners</a></li>
+<li><a href="./../." class="active">Home</a></li>
+<li><a href="./../about-us">About</a></li>
+<li><a href="./../how-it-works">How it Works</a></li>
+<li><a href="./../contact">Contact</a></li>
+<li><a href="./../verify/pin">Verify Pin</a></li>
+<li><a href="./../pin-dispatcher">Dispatchers</a></li>
+<li><a href="./../top-earners">Top Earners</a></li>
 <div class="header-small">
 <?php
                    if ($_SESSION['obcsuid']>0) {
@@ -145,7 +145,7 @@ $put= "<div class='header-action'>
 </div>
 </header>
 <a href="#" class="scrollToTop"><i class="fa fa-angle-double-up"></i></a>
-<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="./assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
+<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="./../assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
 <div class="container">
 <div class="row justify-content-center align-items-center ml-b-30">
 <div class="col-lg-10 text-center mrb-30">
@@ -154,7 +154,7 @@ $put= "<div class='header-action'>
 <div class="breadcrumb-area">
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+<li class="breadcrumb-item"><a href="../.">Home</a></li>
 <li class="breadcrumb-item active" aria-current="page">Terms of Service</li>
 </ol>
 </nav>
@@ -189,16 +189,12 @@ its sole discretion and for any or no reason may refuse to accept applications
 for membership. </p>
 <p class="MsoNormal"> </p>
 <p class="MsoNormal">Members may not:</p>
-<p class="MsoListParagraphCxSpFirst" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>i.<span style="font:7pt 'Times New Roman';">                    
-</span></span></span>Activate or use more than one Member account. </p>
-<p class="MsoListParagraphCxSpMiddle" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>ii.<span style="font:7pt 'Times New Roman';">                  
-</span></span></span>Select or use an Email Address of another person.
+<p class="MsoListParagraphCxSpFirst" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>i.<span style="font:7pt 'Times New Roman';"></span></span></span>Activate or use more than one Member account. </p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>ii.<span style="font:7pt 'Times New Roman';"></span></span></span>Select or use an Email Address of another person.
 </p>
-<p class="MsoListParagraphCxSpMiddle" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>iii.<span style="font:7pt 'Times New Roman';">                
-</span></span></span>Use a name subject to rights of another person
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>iii.<span style="font:7pt 'Times New Roman';"></span></span></span>Use a name subject to rights of another person
 without authorization from that person.</p>
-<p class="MsoListParagraphCxSpLast" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>iv.<span style="font:7pt 'Times New Roman';">                 
-</span></span></span>Use a false or misleading name (Except for
+<p class="MsoListParagraphCxSpLast" style="margin-left:0.75in;text-indent:-0.5in;"><span><span>iv.<span style="font:7pt 'Times New Roman';"></span></span></span>Use a false or misleading name (Except for
 privacy), mailing address, or email address to activate or use a member
 account. </p>
 <p class="MsoNormal">By signing up for the Profit Elite, member is opting-in to

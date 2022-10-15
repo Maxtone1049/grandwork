@@ -413,7 +413,7 @@ $put= "<div class='header-action'>
 <div class="user-img">
 <img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>Peter Madu</span>
+<span>Queen Chris</span>
 </th>
 <td style="text-align: right;">Skyway Gold</td>
 </tr>
@@ -422,7 +422,7 @@ $put= "<div class='header-action'>
 <div class="user-img">
 <img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>ODETUNJI VICTORIA FUNMILOLA</span>
+<span>Big Sam</span>
 </th>
 <td style="text-align: right;">Skyway Gold</td>
 </tr>
@@ -431,7 +431,7 @@ $put= "<div class='header-action'>
 <div class="user-img">
 <img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>Adebayo Oluwapelumi Boluwatife</span>
+<span>Bobo Tominsin</span>
 </th>
 <td style="text-align: right;">Skyway Gold</td>
 </tr>
@@ -440,7 +440,7 @@ $put= "<div class='header-action'>
 <div class="user-img">
 <img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>ADEBAYO OLAPEJU FOLUKE</span>
+<span>Patience Joseph</span>
 </th>
 <td style="text-align: right;">Skyway Gold</td>
 </tr>
@@ -449,7 +449,7 @@ $put= "<div class='header-action'>
 <div class="user-img">
 <img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>Tomisin Joseph Owoseni</span>
+<span>Adebayo Grace</span>
 </th>
 <td style="text-align: right;">Skyway Gold</td>
 </tr>
@@ -473,45 +473,45 @@ $put= "<div class='header-action'>
 <tr>
 <th scope="row" class="d-flex flex-wrap align-items-center">
 <div class="user-img">
-<img src="assets/images/user/profile/1643177200_haloj.jpg" alt="user">
+<img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>Henry Edegua</span>
+<span>Wealth Currency</span>
 </th>
-<td>15000</td>
-</tr>
-<tr>
-<th scope="row" class="d-flex flex-wrap align-items-center">
-<div class="user-img">
-<img src="assets/images/user/profile/1635663991_Favour.jpg" alt="user">
-</div>
-<span>Favour A</span>
-</th>
-<td>19000</td>
+<td>456,889.00</td>
 </tr>
 <tr>
 <th scope="row" class="d-flex flex-wrap align-items-center">
 <div class="user-img">
 <img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>Oluwatimilehin Olodude</span>
+<span>Big Sam</span>
 </th>
-<td>12600</td>
+<td>27,458</td>
 </tr>
 <tr>
 <th scope="row" class="d-flex flex-wrap align-items-center">
 <div class="user-img">
 <img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>Oluwatimilehin Olodude</span>
+<span>Queen Chris</span>
 </th>
-<td>28000</td>
+<td>23,800</td>
 </tr>
 <tr>
 <th scope="row" class="d-flex flex-wrap align-items-center">
 <div class="user-img">
-<img src="assets/images/user/profile/1646395380_Preciouslove123.jpg" alt="user">
+<img src="placeholder-image/500x500.jpg" alt="user">
 </div>
-<span>Precious Okoawoh</span>
+<span>Joy Owoseni</span>
+</th>
+<td>154,187</td>
+</tr>
+<tr>
+<th scope="row" class="d-flex flex-wrap align-items-center">
+<div class="user-img">
+<img src="placeholder-image/500x500.jpg" alt="user">
+</div>
+<span>Adebayo Grace</span>
 </th>
 <td>15000</td>
 </tr>

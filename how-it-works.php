@@ -48,7 +48,7 @@ $put= "<div class='header-action'>
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="315" />
-<meta property="og:url" content="index.html">
+<meta property="og:url" content=".">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="stylesheet" href="assets/templates/basic/css/fontawesome-all.min.css">
@@ -170,7 +170,7 @@ $put= "<div class='header-action'>
 <div class="breadcrumb-area">
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+<li class="breadcrumb-item"><a href=".">Home</a></li>
 <li class="breadcrumb-item active" aria-current="page">How it Works</li>
 </ol>
 </nav>
@@ -185,7 +185,9 @@ $put= "<div class='header-action'>
 <div class="row justify-content-center">
 <div class="col-lg-8 text-center">
 <div class="section-header">
-<h2 class="title">PElite FREQUENTLY ASKED QUESTIONS</h2>
+<h2 class="title">Profit Elite
+    
+FREQUENTLY ASKED QUESTIONS</h2>
 <span class="title-border"></span>
 <p>Here you can find our top frequently asked questions. Please let us know if you have any queries regarding our mining platform and FAQs.</p>
 </div>

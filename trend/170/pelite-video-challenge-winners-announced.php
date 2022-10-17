@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-include 'includes/dbconnect.php';
+include '../includes/dbconnect.php';
 if (strlen($_SESSION['obcsuid']>0)) {
 
 $uid=$_SESSION['obcsuid'];
@@ -34,8 +34,8 @@ $put= "<div class='header-action'>
 <link rel="apple-touch-icon" href="../../assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Profit Elite - AfricTrend">
-<meta itemprop="name" content="Profit Elite - AfricTrend">
+<meta name="apple-mobile-web-app-title" content="Profit Elite - EliteTrend">
+<meta itemprop="name" content="Profit Elite - EliteTrend">
 <meta itemprop="description" content="">
 <meta itemprop="image" content="../../assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
@@ -45,7 +45,7 @@ $put= "<div class='header-action'>
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="315" />
-<meta property="og:url" content="Profit Elite-video-challenge-winners-announced.html">
+<meta property="og:url" content="pelite-video-challenge-winners-announced.php">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="stylesheet" href="../../assets/templates/basic/css/fontawesome-all.min.css">
@@ -139,19 +139,19 @@ $put= "<div class='header-action'>
 <div class="container">
 <div class="header-menu-content">
 <nav class="navbar navbar-expand-lg p-0">
-<a class="site-logo site-title" href="../../index.html"><img src="../../assets/images/logoIcon/logo.png" alt="site-logo"></a>
+<a class="site-logo site-title" href="../../."><img src="../../assets/images/logoIcon/logo.png" alt="site-logo"></a>
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="fas fa-bars"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav main-menu ml-auto mr-auto">
 <li><a href="\../." class="active">Home</a></li>
-<li><a href="../../about-us">About</a></li>
- <li><a href="../../how-it-works">How it Works</a></li>
-<li><a href="../../contact">Contact</a></li>
-<li><a href="../../verify/pin">Verify Pin</a></li>
-<li><a href="../../pin-dispatcher">Dispatchers</a></li>
-<li><a href="../../top-earners">Top Earners</a></li>
+<li><a href="\../../about-us">About</a></li>
+ <li><a href="\../../how-it-works">How it Works</a></li>
+<li><a href="\../../contact">Contact</a></li>
+<li><a href="\../../verify/pin">Verify Pin</a></li>
+<li><a href="\../../pin-dispatcher">Dispatchers</a></li>
+<li><a href="\../../top-earners">Top Earners</a></li>
 <div class="header-small">
 <?php
                     if ($_SESSION['obcsuid']>0) {
@@ -180,7 +180,7 @@ $put= "<div class='header-action'>
 <div class="breadcrumb-area">
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+<li class="breadcrumb-item"><a href="../../.">Home</a></li>
 <li class="breadcrumb-item active" aria-current="page">EliteTrend</li>
 </ol>
 </nav>
@@ -204,13 +204,13 @@ $put= "<div class='header-action'>
 <div class="blog-content">
 <h3 class="title">Profit Elite VIDEO CHALLENGE WINNERS ANNOUNCED!</h3>
 <p>
-<span style="font-size:22px;">After weeks of videos submissions, AFGOLD 2022 VIDEO CHALLENGE CONTEST has come to an end and we are thrilled to announce this year's winners. And the grand prize winner is CBMEDIA.</span>
-<br /><br /><span style="font-size:22px;">Congratulations on a job WELL DONE. Cbmedia Will take home ₦300,000 cash prize, also 30AFG coin would be CREDITED to him. </span>
+<span style="font-size:22px;">After weeks of videos submissions, PELITE 2022 VIDEO CHALLENGE CONTEST has come to an end and we are thrilled to announce this year's winners. And the grand prize winner is CBMEDIA.</span>
+<br /><br /><span style="font-size:22px;">Congratulations on a job WELL DONE. Cbmedia Will take home ₦300,000 cash prize, also 30PEL coin would be CREDITED to him. </span>
 <br /><br /><span style="font-size:22px;">We would also like to extend our congratulations to our second place, third place winners inclusions of </span><span style="font-size:22px;">Vicbright &amp; peaceCJ. ₦200,000 cash prize to be shared amongst them. </span><br />
 <br /><br /><span style="font-size:22px;">Thank you to everyone who participated in this year's Profit Elite VIDEO CHALLENGE CONTEST. Your hard work and commitment is much appreciated and hasn't gone unnoticed. We thoroughly enjoyed getting an inside look at each of your individual videos challenge creative marketing displays.</span>
 <br /><br /><span style="font-size:22px;">Those who took part in this year's video challenge using Profit Elite CUSTOMISED POLO would also be rewarded. </span>
 <br /><br /><span style="font-size:22px;">While we are still modifying our system, Another contest would be coming up soon. 1M cash prize to be won! GET READY &amp; BE PREPARED! </span><br /> </p>
-<p><div id="social-links"><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=\trend/170/Profit Elite-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-facebook-square"></span></a></li><li><a target="_blank" href="https://wa.me/?text=\trend/170/Profit Elite-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-whatsapp"></span></a></li><li><a target="_blank" href="https://telegram.me/share/url?url=\trend/170/Profit Elite-video-challenge-winners-announced&amp;text=Default+share+text" class="social-button " id="" title="" rel=""><span class="fab fa-telegram"></span></a></li></ul></div></p>
+<p><div id="social-links"><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=\trend/170/pelite-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-facebook-square"></span></a></li><li><a target="_blank" href="\trend/170/pultimate-video-challenge-winners-announced" class="social-button " id="" title="" rel=""><span class="fab fa-whatsapp"></span></a></li><li><a target="_blank" href="https://telegram.me/share/url?url=\trend/170/pelite-video-challenge-winners-announced&amp;text=Default+share+text" class="social-button " id="" title="" rel=""><span class="fab fa-telegram"></span></a></li></ul></div></p>
 </div>
 </div>
 </div>
@@ -224,7 +224,7 @@ $put= "<div class='header-action'>
 <img src="../../assets/images/frontend/blog/6272aa325b7211651681842.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../174/get-started-on-profit-elite-and-claim-your-free-airtimedata-in-seconds.php">Get started on Profit Elite and claim your free airtime/data in seconds!</a></h5>
+<h5 class="title"><a href="../174/get-started-on-profit-elite-and-claim-your-free-airtimedata-in-seconds">Get started on Profit Elite and claim your free airtime/data in seconds!</a></h5>
 <span class="blog-date">04 May, 2022</span>
 </div>
 </div>
@@ -251,7 +251,7 @@ $put= "<div class='header-action'>
 <img src="../../assets/images/frontend/blog/62c72bef6f3e51657220079.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../179/profitelite-is-the-most-stable-virtual-mining-platform.php">Profit Elite is the most stable virtual mining platform in Nigeria.</a></h5>
+<h5 class="title"><a href="../179/profitelite-is-the-most-stable-virtual-mining-platform">Profit Elite is the most stable virtual mining platform in Nigeria.</a></h5>
 <span class="blog-date">07 July, 2022</span>
 </div>
 </div>
@@ -286,44 +286,5 @@ $put= "<div class='header-action'>
 <script src="../../assets/templates/basic/js/axios.min.js"></script>
 <link rel="stylesheet" href="../../assets/admin/css/iziToast.min.css">
 <script src="../../assets/admin/js/iziToast.min.js"></script>
-<script>
-    "use strict";
-    function notify(status, message) {
-        if(typeof message == 'string'){
-            iziToast[status]({
-                message: message,
-                position: "topRight"
-            });
-        }else{
-            $.each(message, function(i, val) {
-                iziToast[status]({
-                    message: val,
-                    position: "topRight"
-                });
-            });
-        }
-
-    }
-
-</script>
-<script>
-        $(document).ready(function(){
-
-            $(".social-button").click(function()
-            {
-
-                setTimeout(function () {
-                    axios.post("../../user/trend/170.html")
-                        .then(function (response) {
-                            console.log(response.data);
-                        })
-                        .catch(function (error) {
-                            console.log(error);
-                        });
-                }, 5000)
-
-            });
-        });
-    </script>
 </body>
 </html>

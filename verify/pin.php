@@ -48,7 +48,7 @@ $put= "<div class='header-action'>
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="315" />
-<meta property="og:url" content="index.html">
+<meta property="og:url" content=".">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="stylesheet" href="../assets/templates/basic/css/fontawesome-all.min.css">

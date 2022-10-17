@@ -48,7 +48,7 @@ $put= "<div class='header-action'>
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="315" />
-<meta property="og:url" content="index.html">
+<meta property="og:url" content=".">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="stylesheet" href="assets/templates/basic/css/fontawesome-all.min.css">
@@ -155,7 +155,7 @@ $put= "<div class='header-action'>
 <div class="breadcrumb-area">
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+<li class="breadcrumb-item"><a href=".">Home</a></li>
 <li class="breadcrumb-item active" aria-current="page">Blog</li>
 </ol>
 </nav>
@@ -188,37 +188,6 @@ $put= "<div class='header-action'>
 <script src="assets/templates/basic/js/jquery.fake-notification.min.js"></script>
 <link rel="stylesheet" href="assets/admin/css/iziToast.min.css">
 <script src="assets/admin/js/iziToast.min.js"></script>
-<script>
-    "use strict";
-    function notify(status, message) {
-        if(typeof message == 'string'){
-            iziToast[status]({
-                message: message,
-                position: "topRight"
-            });
-        }else{
-            $.each(message, function(i, val) {
-                iziToast[status]({
-                    message: val,
-                    position: "topRight"
-                });
-            });
-        }
 
-    }
-
-</script>
-
-<script>
-
-    'use strict';
-    (function($){
-        $(document).on("change", ".select-bar", function() {
-            window.location.href = "https://afrigoldm.com/change/"+$(this).val() ;
-        });
-
-        $('.select-bar').val('en');
-    })(jQuery)
-</script>
 </body>
 </html>

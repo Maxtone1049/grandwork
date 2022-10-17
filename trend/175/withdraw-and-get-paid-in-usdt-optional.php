@@ -1,30 +1,45 @@
+<?php
+session_start();
+error_reporting(0);
+include '../includes/dbconnect.php';
+if (strlen($_SESSION['obcsuid']>0)) {
+
+$uid=$_SESSION['obcsuid'];
+$put= "<div class='header-action'>
+<a href='account/dashboard' class='cmn-btn-active'>Dashboard</a>
+</div>";
+  
+}else {
+    $out= " <div class='header-action'>
+    <a href='\../register' class='cmn-btn'>Register</a>
+    <a href='\../login' class='cmn-btn-active'>Login</a>
+    </div>";
+}
+?>
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
-
-<!-- Mirrored from afrigoldm.com/trend/175/withdraw-and-get-paid-in-usdt-optional by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 00:14:27 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="icon" type="image/x-icon" href="../../assets/images/logoIcon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/logoIcon/favicon.png" />
 <link href="../../../fonts.googleapis.com/css2b7d6.css?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-<title> AfricGold - AfricTrend</title>
-<meta name="title" Content="AfricGold - AfricTrend">
-<meta name="description" content="AfricGold is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and AfricGold is built to be ready for whatever mining throws.">
-<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,AfriGold,AfricGold,Afrigold mining,Africgold mining">
+<title> Profit Elite - EliteTrend</title>
+<meta name="title" Content="Profit Elite - EliteTrend">
+<meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Elite,Profit Elite,Profit Elite mining,Profit Elite mining">
 <link rel="shortcut icon" href="../../assets/images/logoIcon/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="../../assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="AfricGold - AfricTrend">
-<meta itemprop="name" content="AfricGold - AfricTrend">
+<meta name="apple-mobile-web-app-title" content="Profit Elite - EliteTrend">
+<meta itemprop="name" content="Profit Elite - EliteTrend">
 <meta itemprop="description" content="">
 <meta itemprop="image" content="../../assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="AfricGold">
-<meta property="og:description" content="Africgold is an integral part of the cryptocurrency miner space. AfricGold is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The AfricGold allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
+<meta property="og:title" content="Profit Elite">
+<meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
 <meta property="og:image" content="../../assets/images/seo/612d1ba9df6921630346153.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
@@ -96,21 +111,6 @@
     </script>
 </head>
 <body>
-<div class="preloader-area">
-<div class='coin'>
-<div class='front jump'>
-<div class='star'></div>
-<span class='currency'><i class="las la-coins"></i></span>
-<div class='shapes'>
-<div class='shape_l'></div>
-<div class='shape_r'></div>
-<span class='top'>AfricGold</span>
-<span class='bottom'>AfricGold</span>
-</div>
-</div>
-<div class='shadow'></div>
-</div>
-</div>
 <header class="header-section">
 <div class="header">
 <div class="header-top-area">
@@ -118,13 +118,17 @@
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 812 645 2522"><i class="fas fa-phone"></i>+234 812 645 2522</a></span>
+<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
 </div>
 <div class="header-right-info">
-<div class="header-action">
-<a href="../../register.html" class="cmn-btn">Register</a>
-<a href="../../login.html" class="cmn-btn-active">Login</a>
-</div>
+<?php
+                    if ($_SESSION['obcsuid']>0) {
+                        echo $put;
+                    }else {
+                        echo $out;
+                    }
+                    
+                    ?>
 </div>
 </div>
 </div>
@@ -134,22 +138,28 @@
 <div class="container">
 <div class="header-menu-content">
 <nav class="navbar navbar-expand-lg p-0">
-<a class="site-logo site-title" href="../../index.html"><img src="../../assets/images/logoIcon/logo.png" alt="site-logo"></a>
+<a class="site-logo site-title" href="../../."><img src="../../assets/images/logoIcon/logo.png" alt="site-logo"></a>
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="fas fa-bars"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav main-menu ml-auto mr-auto">
-<li><a href="../../index.html" class="active">Home</a></li>
- <li><a href="../../about-us.html">About</a></li>
-<li><a href="../../how-it-works.html">How it Works</a></li>
-<li><a href="../../contact.html">Contact</a></li>
-<li><a href="../../verify/pin.html">Verify Pin</a></li>
-<li><a href="../../pin-dispatcher.html">Dispatchers</a></li>
-<li><a href="../../top-earners.html">Top Earners</a></li>
+<li><a href="\../." class="active">Home</a></li>
+<li><a href="../../about-us">About</a></li>
+ <li><a href="../../how-it-works">How it Works</a></li>
+<li><a href="../../contact">Contact</a></li>
+<li><a href="../../verify/pin">Verify Pin</a></li>
+<li><a href="../../pin-dispatcher">Dispatchers</a></li>
+<li><a href="../../top-earners">Top Earners</a></li>
 <div class="header-small">
-<a href="../../register.html" class="cmn-btn">Register</a>
-<a href="../../login.html" class="cmn-btn-active">Login</a>
+<?php
+                    if ($_SESSION['obcsuid']>0) {
+                        echo $put;
+                    }else {
+                        echo $out;
+                    }
+                    
+                    ?>
 </div>
 </ul>
 </div>
@@ -160,17 +170,17 @@
 </div>
 </header>
 <a href="#" class="scrollToTop"><i class="fa fa-angle-double-up"></i></a>
-<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="https://afrigoldm.com/assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
+<section class="banner-section inner-banner-section bg-overlay-primary bg_img" data-background="\assets/images/frontend/breadcrumb/6043507db922f1615024253.jpg">
 <div class="container">
 <div class="row justify-content-center align-items-center ml-b-30">
 <div class="col-lg-10 text-center mrb-30">
 <div class="banner-content">
-<h2 class="title">AfricTrend</h2>
+<h2 class="title">EliteTrend</h2>
 <div class="breadcrumb-area">
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-<li class="breadcrumb-item active" aria-current="page">AfricTrend</li>
+<li class="breadcrumb-item"><a href="../../.">Home</a></li>
+<li class="breadcrumb-item active" aria-current="page">EliteTrend</li>
 </ol>
 </nav>
 </div>
@@ -196,27 +206,27 @@
 <span style="font-size:15px;">You can now withdraw and get paid in USDT with or without referals! </span>
 <br /><br /><span style="font-size:15px;">Since our platform is crypto related, in a bid to curtail CBN regulatory derivatives on cryptocurrencies , we will start using blockchain Tech to drive greater transparency and veracity across our digital payment ecosystem. </span>
 <br /><br /><span style="font-size:15px;">We've added an option for members to input their usdt trc20 wallet address(optional) This would help us disburse funds seamlessly without going against CBN regulatory derivatives on cryptocurrencies.</span><br /><br />
-<br /><br /><span style="font-size:15px;">For you to be eligible to receive your AFRICTREND REVENUE as at when due;</span><br /><br /><span style="font-size:15px;">AFRICTREND must be upto date.</span><div><font color="#5b6e88"><span style="font-size:15px;"><br /></span></font><span style="font-size:15px;">No broken or invalid Facebook profile link. </span>
-<br /><br /><span style="font-size:15px;">ENSURE you link your Facebook account to your AFRICGOLD sophisticated dashboard(feature now available) </span>
-<br /><br /><span style="font-size:15px;">AFRICTREND must be shared to PUBLIC </span>
-<br /><br /><span style="font-size:15px;">Being very active on AFRICGOLD (consistent sharing of AFRICTREND) </span><br /><br /><span style="font-size:15px;">You ought to've earned sufficient AFG</span><div><font color="#5b6e88"><span style="font-size:15px;"><br /></span></font><span style="font-size:15px;">Your minimum AFG must not be less than 5AFG</span><br />
+<br /><br /><span style="font-size:15px;">For you to be eligible to receive your EliteTrend REVENUE as at when due;</span><br /><br /><span style="font-size:15px;">EliteTrend must be upto date.</span><div><font color="#5b6e88"><span style="font-size:15px;"><br /></span></font><span style="font-size:15px;">No broken or invalid Facebook profile link. </span>
+<br /><br /><span style="font-size:15px;">ENSURE you link your Facebook account to your Profit Elite sophisticated dashboard(feature now available) </span>
+<br /><br /><span style="font-size:15px;">EliteTrend must be shared to PUBLIC </span>
+<br /><br /><span style="font-size:15px;">Being very active on Profit Elite (consistent sharing of EliteTrend) </span><br /><br /><span style="font-size:15px;">You ought to've earned sufficient PEL</span><div><font color="#5b6e88"><span style="font-size:15px;"><br /></span></font><span style="font-size:15px;">Your minimum PEL must not be less than 5PEL</span><br />
 <span style="font-size:15px;">Balance is enough and eligible to make you cashout </span><br /><br /><span style="font-size:15px;">If you are eligible, be rest assured that you will get paid with NO SINGLE REFERAL. </span>
 <br /><br /><span style="font-size:15px;">Our intention is to stay for a very long time, not only to stay, but to pay our verified members continuously! </span><br /><br /><span style="font-size:15px;">HAPPY MONEY MAKING! </span><br /></div></div> </p>
-<p><div id="social-links"><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=https://afrigoldm.com/trend/175/withdraw-and-get-paid-in-usdt-optional" class="social-button " id="" title="" rel=""><span class="fab fa-facebook-square"></span></a></li><li><a target="_blank" href="https://wa.me/?text=https://afrigoldm.com/trend/175/withdraw-and-get-paid-in-usdt-optional" class="social-button " id="" title="" rel=""><span class="fab fa-whatsapp"></span></a></li><li><a target="_blank" href="https://telegram.me/share/url?url=https://afrigoldm.com/trend/175/withdraw-and-get-paid-in-usdt-optional&amp;text=Default+share+text" class="social-button " id="" title="" rel=""><span class="fab fa-telegram"></span></a></li></ul></div></p>
+<p><div id="social-links"><ul><li><a href="\trend/175/withdraw-and-get-paid-in-usdt-optional" class="social-button " id="" title="" rel=""><span class="fab fa-facebook-square"></span></a></li><li><a target="_blank" href="\trend/175/withdraw-and-get-paid-in-usdt-optional" class="social-button " id="" title="" rel=""><span class="fab fa-whatsapp"></span></a></li><li><a target="_blank" href="\trend/175/withdraw-and-get-paid-in-usdt-optional&amp;text=Default+share+text" class="social-button " id="" title="" rel=""><span class="fab fa-telegram"></span></a></li></ul></div></p>
 </div>
 </div>
 </div>
 <div class="col-lg-4 mrb-30">
 <div class="sidebar">
 <div class="widget-box">
-<h5 class="widget-title">Latest AfricTrend</h5>
+<h5 class="widget-title">Latest EliteTrend</h5>
 <div class="popular-widget-box">
 <div class="single-popular-item d-flex flex-wrap align-items-center">
 <div class="popular-item-thumb">
 <img src="../../assets/images/frontend/blog/623314fe2e3131647514878.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../170/africgold-video-challenge-winners-announced.html">AFRICGOLD VIDEO CHALLENGE WINNERS ANNOUNCED!</a></h5>
+<h5 class="title"><a href="../170/pelite-video-challenge-winners-announced">Profit Elite VIDEO CHALLENGE WINNERS ANNOUNCED!</a></h5>
 <span class="blog-date">17 March, 2022</span>
 </div>
 </div>
@@ -225,7 +235,7 @@
 <img src="../../assets/images/frontend/blog/6272aa325b7211651681842.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../174/get-started-on-africgold-and-claim-your-free-airtimedata-in-seconds.html">Get started on AFRICGOLD and claim your free airtime/data in seconds!</a></h5>
+<h5 class="title"><a href="../174/get-started-on-profit-elite-and-claim-your-free-airtimedata-in-seconds">Get started on Profit Elite and claim your free airtime/data in seconds!</a></h5>
 <span class="blog-date">04 May, 2022</span>
 </div>
 </div>
@@ -234,7 +244,7 @@
 <img src="../../assets/images/frontend/blog/62ab6a9c194d91655401116.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../178/africgold-is-a-rock-solid-project-that-would-never-wavers.html">AFRICGOLD is a Rock solid project that would never wavers!</a></h5>
+<h5 class="title"><a href="../178/profitelite-is-a-rock-solid-project-that-would-never-wavers">Profit Elite is a Rock solid project that would never wavers!</a></h5>
 <span class="blog-date">16 June, 2022</span>
 </div>
 </div>
@@ -243,7 +253,7 @@
 <img src="../../assets/images/frontend/blog/62c72bef6f3e51657220079.jpg" alt="blog">
 </div>
 <div class="popular-item-content">
-<h5 class="title"><a href="../179/africgold-is-the-most-stable-virtual-mining-platform-in-nigeria.html">AFRICGOLD is the most stable virtual mining platform in Nigeria.</a></h5>
+<h5 class="title"><a href="../179/profitelite-is-the-most-stable-virtual-mining-platform">Profit Elite is the most stable virtual mining platform in Nigeria.</a></h5>
 <span class="blog-date">07 July, 2022</span>
 </div>
 </div>
@@ -255,91 +265,7 @@
 </div>
 </section>
 
-<footer class="footer-section ptb-80">
-<div class="container">
-<div class="footer-area">
-<div class="row ml-b-30">
-<div class="col-lg-4 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">About Us</h3>
-<p>AfriGold is one of the leading cryptocurrency mining platforms, offering cryptocurrency mining capacities in every range - for newcomers. Our mission is to make acquiring cryptocurrencies easy and fast for everyone.</p>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Quick Links</h3>
-<ul class="footer-list">
-<li><a href="../../about-us.html">About</a></li>
-<li><a href="../../how-it-works.html">How it Works</a></li>
-<li><a href="../../blogs.html">Blog</a></li>
-<li><a href="../../contact.html">Contact</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-2 col-sm-6 mrb-30">
-<div class="footer-widget">
-<h3 class="widget-title">Useful Links</h3>
-<ul class="footer-list">
-<li><a href="../../links/disclaimer-87.html">Disclaimer</a></li>
-<li><a href="../../links/cookie-policy-83.html">Cookie Policy</a></li>
- <li><a href="../../links/terms-of-service-78.html">Terms of Service</a></li>
-<li><a href="../../links/privacy-policy-77.html">Privacy Policy</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 mrb-30">
-<div class="footer-widget widget-menu">
-<h3 class="widget-title">Contact Info</h3>
-<ul class="footer-list">
-<li>Call Us Now +234 812 645 2522</li>
-<li><a href="../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="e99a9c9999869b9da9888f9b808a8e86858dc78a8684">[email&#160;protected]</a></li>
-<li>AfricGold Head Office, Lagos 125666, NG</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-12">
-<div class="social-area d-flex justify-content-center">
-<ul class="footer-social">
-<li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-<li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<div class="privacy-area privacy-area--style">
-<div class="container">
-<div class="copyright-area d-flex flex-wrap align-items-center justify-content-center">
-<div class="copyright">
-<p>COPYRIGHT © 2021 ALL RIGHTS RESERVED</p>
-</div>
-</div>
-</div>
-</div>
-
-<div id="notification-1" class="notification">
-<div class="notification-block">
-<div class="notification-img">
-
-<img src="../../assets/images/logoIcon/favicon.png" aria-hidden="true"></img>
-
-</div>
-<div class="notification-text-block">
-<div class="notification-title">
-
-AfricGold Update
-
-</div>
-<div class="notification-text"></div>
-</div>
-</div>
-</div>
-
-
+<?php include ('../../footer.php')?>
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../assets/templates/basic/js/jquery-3.3.1.min.js"></script>
 
 <script src="../../assets/templates/basic/js/jquery-migrate-3.0.0.js"></script>
@@ -381,76 +307,5 @@ AfricGold Update
     }
 
 </script>
-<script>
-        $(document).ready(function(){
-
-            $(".social-button").click(function()
-            {
-
-                setTimeout(function () {
-                    axios.post("../../user/trend/175.html")
-                        .then(function (response) {
-                            console.log(response.data);
-                        })
-                        .catch(function (error) {
-                            console.log(error);
-                        });
-                }, 5000)
-
-            });
-        });
-    </script>
-<script>
-
-    'use strict';
-    (function($){
-        $(document).on("change", ".select-bar", function() {
-            window.location.href = "https://afrigoldm.com/change/"+$(this).val() ;
-        });
-
-        $('.select-bar').val('en');
-    })(jQuery)
-</script>
-<script>
-
-    $(document).ready(function() {
-        $('#notification-1').Notification({
-            // Notification varibles
-            Varible1: ["David","Jack","Olivia","Samuel","Thomas","William","Adam","Dylan","Luke","Matthew","Ethan","Nathan","Archie","Oscar","Lucas","Isaac","Tom","Gabriel","Reuben","Sean","Jude","Leon","Tanaka","Sasaki","Kimura","Yamada","Hayashi","Ogawa","Lisa","Grete","Sandra","Anna","Kati","Stacy","Jane"],
-            Varible2: ["Ikeja","Lagos","Kaduna","Kwara","Delta","Ghana","Cameroon","Makurdi","Uyo","Eket","Awka","Enugu","Kebbi","Jos","Kogi","Nasarrawa","Kebbi","Lokoja","Abia"],
-            Varible3: ["registerd", "started mining", "referred"],
-            Amount: [100, 50000],
-            Content: '[Varible1] from [Varible2] has just [Varible3].',
-            // Timer
-            Show: ['random', 5, 10],
-            Close: 5,
-            Time: [0, 23],
-            // Notification style
-            LocationTop: [false, '5%'],
-            LocationBottom:[true, '5%'],
-            LocationRight: [false, '5px'],
-            LocationLeft:[true, '10px'],
-            Background: '#252c40',
-            BorderRadius: 5,
-            BorderWidth: 3,
-            BorderColor: 'gold',
-            TextColor: 'white',
-            IconColor: 'orange',
-            // Notification Animated
-            AnimationEffectOpen: 'fadeInUp',
-            AnimationEffectClose: 'fadeOutDown',
-            // Number of notifications
-            Number: 100,
-            // Notification link
-            Link: [false, '#']
-
-        });
-
-
-    });
-
-</script>
 </body>
-
-<!-- Mirrored from afrigoldm.com/trend/175/withdraw-and-get-paid-in-usdt-optional by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Aug 2022 00:14:28 GMT -->
 </html>

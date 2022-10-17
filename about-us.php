@@ -48,7 +48,7 @@ $put= "<div class='header-action'>
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="315" />
-<meta property="og:url" content="index.html">
+<meta property="og:url" content=".">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="stylesheet" href="assets/templates/basic/css/fontawesome-all.min.css">
@@ -177,7 +177,7 @@ $put= "<div class='header-action'>
 <div class="about-content">
 <h2 class="title">About Profit Elite</h2>
 <span class="title-border"></span>
-<p>Profit Elite is a dual-purpose platform made up of subsidiaries that provide an opportunity to utilize PULTIMATE Virtual mining technique, which is intended for evaluating mining revenue and as well as conversion of PULTIMATE units to real word money and cash out as at when due.</p>
+<p>Profit Elite is a dual-purpose platform made up of subsidiaries that provide an opportunity to utilize PELITE Virtual mining technique, which is intended for evaluating mining revenue and as well as conversion of PELITE units to real word money and cash out as at when due.</p>
 <div class="about-item-area ml-b-30">
 <div class="about-item d-flex flex-wrap align-items-center mrb-30">
 <div class="about-icon">
@@ -228,10 +228,10 @@ $put= "<div class='header-action'>
 <span class="overlay-date">07, Jul</span>
 </div>
 <div class="blog-content">
-<h3 class="title"><a href="trend/179/ProfitElite-is-the-most-stable-virtual-mining-platform">Profit Elite is the most stable virtual mining platform in Nigeria.</a></h3>
+<h3 class="title"><a href="trend/179/profitelite-is-the-most-stable-virtual-mining-platform">Profit Elite is the most stable virtual mining platform in Nigeria.</a></h3>
 <p> Profit Elite has proven to be the most stable/reliable virtual mining platform in N...</p>
 <div class="blog-btn">
-<a href="trend/179/ProfitElite-is-the-most-stable-virtual-mining-platform" class="custom-btn">Read More <i class="fas fa-angle-double-right"></i></a>
+<a href="trend/179/profitelite-is-the-most-stable-virtual-mining-platform" class="custom-btn">Read More <i class="fas fa-angle-double-right"></i></a>
 </div>
 </div>
 </div>
@@ -243,10 +243,10 @@ $put= "<div class='header-action'>
 <span class="overlay-date">16, Jun</span>
 </div>
 <div class="blog-content">
-<h3 class="title"><a href="trend/178/ProfitElite-is-a-rock-solid-project-that-would-never-wavers">Profit Elite is a Rock solid project that would never wavers!</a></h3>
+<h3 class="title"><a href="trend/178/profitelite-is-a-rock-solid-project-that-would-never-wavers">Profit Elite is a Rock solid project that would never wavers!</a></h3>
 <p> If you've joined other income platforms; it's pertinent to lend credence to the...</p>
 <div class="blog-btn">
-<a href="trend/178/ProfitElite-is-a-rock-solid-project-that-would-never-wavers" class="custom-btn">Read More <i class="fas fa-angle-double-right"></i></a>
+<a href="trend/178/profitelite-is-a-rock-solid-project-that-would-never-wavers" class="custom-btn">Read More <i class="fas fa-angle-double-right"></i></a>
 </div>
 </div>
 </div>
@@ -293,26 +293,5 @@ Since our p...</p>
 <script src="assets/templates/basic/js/jquery.fake-notification.min.js"></script>
 <link rel="stylesheet" href="assets/admin/css/iziToast.min.css">
 <script src="assets/admin/js/iziToast.min.js"></script>
-<script>
-    "use strict";
-    function notify(status, message) {
-        if(typeof message == 'string'){
-            iziToast[status]({
-                message: message,
-                position: "topRight"
-            });
-        }else{
-            $.each(message, function(i, val) {
-                iziToast[status]({
-                    message: val,
-                    position: "topRight"
-                });
-            });
-        }
-
-    }
-
-</script>
 </body>
-
 </html>

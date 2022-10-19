@@ -204,45 +204,45 @@ than the legitimate channels authorized by Profit Elite. </p>
 <p class="MsoNormal">Member agrees not to participate in any fraudulent behavior
 of any kind.</p>
 <p class="MsoNormal">Spamming is strictly prohibited. Any spamming done to
-advertise AFGOLD will result in immediate termination of your account and a
+advertise PEL will result in immediate termination of your account and a
 forfeiture of your account earning balance. Incidents will be dealt with on a case-by-case
 basis. </p>
 <p class="MsoNormal">Refund Policy: As we are offering non-tangible virtual
 digital goods which is form of registration fee , we do not generally issue
 refunds after the purchase Of Profit Elite UNIT has been made. Please note that by
-purchasing any of the AFGOLD UNITS , you agree to the no Refund Policy.</p>
+purchasing any of the PEL UNITS , you agree to the no Refund Policy.</p>
 <p class="MsoNormal"><b>Membership activities, Mining, trend post sharing and
 recruiting: </b></p>
 <p class="MsoNormal">Administrators, Editors and Moderators reserve the right to
 approve or disapprove contents or comments posted on the Profit Elite Forum. As an
-AFGOLD MINER, you will only mine and get a revenue shared paid to your bank
+PEL MINER, you will only mine and get a revenue shared paid to your bank
 account when you abide by the following rules: </p>
 <p class="MsoNormal">TREND POST sharing must correspond with the post date and
 must be shared as recommended.</p>
 <p class="MsoNormal"><b>Payment: </b></p>
-<p class="MsoNormal">We pay out daily starting from AFGOLD affiliate earners with
-minimum of at least N5,000 also AFGOLD miners Activities Earning respectively
-accumulated to at least 1 unit of AFGOLD and above. Payment shall always start
+<p class="MsoNormal">We pay out daily starting from PEL affiliate earners with
+minimum of at least N5,000 also PEL miners Activities Earning respectively
+accumulated to at least 1 unit of PEL and above. Payment shall always start
 from the highest miners to others. Once the available revenue is finally
 exhausted, pending earning will be carried over to the following month revenue
 payout. </p>
 <p class="MsoNormal">If you did not get paid while you have earned 1 unit of
-AFGOLD threshold, it doesn't mean you wont get paid while the system keep
+PEL threshold, it doesn't mean you wont get paid while the system keep
 running. Your earning will be carried over to the following week. You only need
 to earn more to the top earner for you to have a share on the following month
 revenue payout. </p>
-<p class="MsoNormal">Members discontinued participation in the AFGOLD or failure
-to notify AFGOLD of any address (mailing or email) changes may result in the
+<p class="MsoNormal">Members discontinued participation in the PEL or failure
+to notify PEL of any address (mailing or email) changes may result in the
 termination of Members membership and forfeiture of Member unredeemed Earnings.
 </p>
 <p class="MsoNormal">Member shall comply with all laws, rules, and regulations
 that are applicable to member. Member acknowledges that Member may only
-participate in AFGOLD if and to the extent that such participation is permitted
+participate in PEL if and to the extent that such participation is permitted
 by such laws, rules, and regulations. </p>
 <p class="MsoNormal">If member objects to any of the Terms and Conditions of this
 Agreement, or any subsequent modifications to this agreement, or becomes
 dissatisfied with the Program, Members only recourse is to immediately
-discontinue participation in AFGOLD and properly terminate his or her
+discontinue participation in PEL and properly terminate his or her
 membership. </p></div>
 </div>
 </div>

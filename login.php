@@ -22,7 +22,7 @@ $_SESSION['obcsuid']=$result->ID;
 $_SESSION['login']=$_POST['Email'];
 echo "<script type='text/javascript'> document.location ='.'; </script>";
 } else{
-    $msg= "Wrong Username or Password";
+    $msg = "<p class='text-danger bg-warning text-center font-weight-bold px-2 py-2 rounded stat3'>Wrong Username or Password</p>";
 }
 }
 

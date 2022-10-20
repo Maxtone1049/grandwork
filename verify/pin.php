@@ -177,7 +177,7 @@ if (strlen($_SESSION['obcsuid'] > 0)) {
                 foreach ($results as $result) {
                     $_SESSION['obc'] = $result->ID;
                 }
-        
+
                 $_SESSION['verify'] = $_POST['Code'];
                 $msg = '<p class="bg-info text-white font-weight-bold py-3 px-3 rounded stat5 text-center">Purchase Code is Valid and Used</p>';
             } else {
@@ -203,8 +203,8 @@ if (strlen($_SESSION['obcsuid'] > 0)) {
                                 </div>
                             </div>
                         </form>
-                      <?php echo $msg ?>
-                     </div>
+                        <?php echo $msg ?>
+                    </div>
                 </div>
 
             </div>

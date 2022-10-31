@@ -1,1 +1,102 @@
-.container-mine{display:flex;flex-direction:column;align-items:center;color:#fff;padding:2rem;background-color:#272d42;transition:all .5s ease-in-out}.balance{display:flex;flex-direction:column;align-items:center}.balance h1{text-transform:capitalize;color:#fff}.balance .mining-value{width:auto;font-size:1.5rem;padding:.5rem 1rem;border:1px solid #b2991b;background-color:rgba(230,230,230,.8)}.mining-value .mining-balance{margin-right:.5rem;padding-right:1rem;border-right:1px solid #fff}.mining-value .currency{padding-left:1rem}.btn-container{display:flex;flex-direction:column;align-items:center;margin:5rem 0}.btn-mine{cursor:pointer;color:#fff;width:150px;height:150px;border-radius:100%;border:none;font-size:4rem;font-weight:700;background-image:linear-gradient(to right,rgb(178,153,27),rgb(178,153,27));text-shadow:1px 1px 1px rgba(255,255,255,.66);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 2px 2px rgba(0,0,0,.19);border-bottom:2px solid #a58900;margin-bottom:2rem}.mining-state{text-transform:capitalize;font-size:1.5rem}.rate .mining-rate{font-size:1.5rem;font-weight:600;margin-right:.5rem}.counter-mine{width:200px;font-size:2.5rem;padding:1rem;background-color:#fff;color:#a58900;border-radius:11px}@keyframes pulse{0%{transform:scale(1);box-shadow:0 0 0 0 rgb(178,153,27,.44)}70%{transform:scale(1.1);box-shadow:0 0 0 50px rgb(178,153,27,0)}100%{transform:scale(1);box-shadow:0 0 0 0 rgb(178,153,27,0)}}.btn-mine.pulse{animation:pulse 2s infinite}
+.container-mine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 2rem;
+    background-color: #272d42;
+    transition: all .5s ease-in-out
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.balance h1 {
+    text-transform: capitalize;
+    color: #fff
+}
+
+.balance .mining-value {
+    width: auto;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border: 1px solid #b2991b;
+    background-color: rgba(230, 230, 230, .8)
+}
+
+.mining-value .mining-balance {
+    margin-right: .5rem;
+    padding-right: 1rem;
+    border-right: 1px solid #fff
+}
+
+.mining-value .currency {
+    padding-left: 1rem
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0
+}
+
+.btn-mine {
+    cursor: pointer;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: none;
+    font-size: 4rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(178, 153, 27), rgb(178, 153, 27));
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .66);
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(0, 0, 0, .19);
+    border-bottom: 2px solid #a58900;
+    margin-bottom: 2rem
+}
+
+.mining-state {
+    text-transform: capitalize;
+    font-size: 1.5rem
+}
+
+.rate .mining-rate {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: .5rem
+}
+
+.counter-mine {
+    width: 200px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    color: red;
+    border-radius: 11px
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(178, 153, 27, .44)
+    }
+
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 50px rgb(178, 153, 27, 0)
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(178, 153, 27, 0)
+    }
+}
+
+.btn-mine.pulse {
+    animation: pulse 2s infinite
+}

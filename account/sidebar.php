@@ -30,13 +30,6 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share &Earn </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarNavDropdown">
-                                        <a class="dropdown-item" href="trend">Trend Posts</a>
-                                        <!-- <a class="dropdown-item" href="log">Trend Log</a> -->
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Withdraw </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarNavDropdown">
                                         <a class="dropdown-item" href="withdrawal">Withdraw Funds</a>

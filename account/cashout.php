@@ -187,23 +187,6 @@ foreach($results as $row)
         </script>
     </head>
     <body>
-        <!-- <div class="preloader-area">
-            <div class='coin'>
-                <div class='front jump'>
-                    <div class='star'></div>
-                    <span class='currency'>
-                        <i class="las la-coins"></i>
-                    </span>
-                    <div class='shapes'>
-                        <div class='shape_l'></div>
-                        <div class='shape_r'></div>
-                        <span class='top'>Profit Elite</span>
-                        <span class='bottom'>Profit Elite</span>
-                    </div>
-                </div>
-                <div class='shadow'></div>
-            </div>
-        </div> -->
         <header class="header-section">
             <div class="header">
                 <div class="header-bottom-area">
@@ -260,7 +243,7 @@ foreach($results as $row)
                         <h3 class="text-center text-dark mb-3">
                             <u>Instant Cashout</u>
                         </h3>
-                        <!-- <h4 class="text-center mt-2">You are not eligible for this offer. Kindly refer 2 or more skyway users</h4> -->
+                       
                     </div>
                 </div>
             </div>

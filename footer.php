@@ -1,5 +1,4 @@
-
-        <footer class="footer-section ptb-80">
+<footer class="footer-section ptb-80">
             <div class="container">
                 <div class="footer-area">
                     <div class="row ml-b-30">

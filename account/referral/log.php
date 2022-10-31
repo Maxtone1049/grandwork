@@ -173,7 +173,7 @@ foreach($results as $row)
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="../dashboard">Dashboard</a>
+                                        <a href="../.">Dashboard</a>
                                     </li>
                                     <li class="breadcrumb-item active" aria-current="page">Referral Bonus Logs</li>
                                 </ol>
@@ -208,7 +208,7 @@ foreach($results as $row)
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../dashboard">Dashboard</a>
+                                    <a class="nav-link" href="../.">Dashboard</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Miner </a>
@@ -217,13 +217,7 @@ foreach($results as $row)
                                         <a class="dropdown-item" href="../mine-log">Mine Log</a>
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share &Earn </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarNavDropdown">
-                                        <a class="dropdown-item" href="../trend">Trend Posts</a>
-                                        <!-- <a class="dropdown-item" href="log">Trend Log</a> -->
-                                    </div>
-                                </li>
+                               
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Withdraw </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarNavDropdown">

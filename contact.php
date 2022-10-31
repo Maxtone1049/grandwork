@@ -6,7 +6,7 @@ if (strlen($_SESSION['obcsuid']>0)) {
 
 $uid=$_SESSION['obcsuid'];
 $put= "<div class='header-action'>
-<a href='account/dashboard' class='cmn-btn-active'>Dashboard</a>
+<a href='account/.' class='cmn-btn-active'>Dashboard</a>
 </div>";
 
   

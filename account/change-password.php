@@ -145,7 +145,7 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="dashboard">Dashboard</a>
+                                        <a href=".">Dashboard</a>
                                     </li>
                                     <li class="breadcrumb-item active" aria-current="page">Change Password</li>
                                 </ol>

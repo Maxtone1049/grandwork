@@ -303,7 +303,7 @@ foreach($results as $row)
                                             <strong>₦ 2700
                                             </strong>
                                         </td>
-                                        <td data-label="Description">Level 1 Referral Commission From ejor2020</td>
+                                        <td data-label="Description">Level 1 Referral Commission From <?php echo $row->uname?></td>
                                         <td data-label="Time">17 Sep, 2021 03:00 PM
                                         </td>
                                         <td data-label="Balance">₦ 2700</td>

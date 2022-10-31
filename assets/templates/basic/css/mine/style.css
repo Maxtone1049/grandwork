@@ -23,14 +23,14 @@
     width: auto;
     font-size: 1.5rem;
     padding: .5rem 1rem;
-    border: 1px solid #b2991b;
+    border: 1px solid red;
     background-color: rgba(230,230,230,.8)
 }
 
 .mining-value .mining-balance {
     margin-right: .5rem;
     padding-right: 1rem;
-    border-right: 1px solid #b2991b
+    border-right: 1px solid red
 }
 
 .mining-value .currency {

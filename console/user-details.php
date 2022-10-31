@@ -22,7 +22,7 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $query->bindParam(':vid', $vid, PDO::PARAM_STR);
     $query->execute();
 
-    echo '<script>alert("Manipulation Complete, Enjoy Scamming!!!")</script>';
+    echo '<script>alert("Profile Corrected")</script>';
     echo "<script>window.location.href ='dashboard'</script>";
   }
 ?>

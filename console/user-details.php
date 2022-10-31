@@ -7,23 +7,23 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
 } else {
   if (isset($_POST['submit'])) {
     $vid = $_GET['viewid'];
-    $balance = $_POST['balance'];
-    $cap = $_POST['cap'];
-    $refbal = $_POST['refbal'];
-    $btcbal = $_POST['btcbal'];
+    $refamount = $_POST['refamount'];
+    $tmine = $_POST['tmine'];
+    $trendamount = $_POST['trendamount'];
+    $mineamount = $_POST['mineamount'];
 
-    $sql = "UPDATE users SET bal=:balance, refbal=:refbal,btc_bal=:btcbal, cap_bal=:cap WHERE ID=:vid";
+    $sql = "UPDATE users SET Ref_amount=:refamount, total_mine=:tmine,trend_amount=:trendamount, mine_amount=:mineamount WHERE ID=:vid";
 
     $query = $dbh->prepare($sql);
-    $query->bindParam(':balance', $balance, PDO::PARAM_STR);
-    $query->bindParam(':cap', $cap, PDO::PARAM_STR);
-    $query->bindParam(':refbal', $refbal, PDO::PARAM_STR);
-    $query->bindParam(':btcbal', $btcbal, PDO::PARAM_STR);
+    $query->bindParam(':refamount', $refamount, PDO::PARAM_STR);
+    $query->bindParam(':tmine', $tmine, PDO::PARAM_STR);
+    $query->bindParam(':trendamount', $trendamount, PDO::PARAM_STR);
+    $query->bindParam(':mineamount', $mineamount, PDO::PARAM_STR);
     $query->bindParam(':vid', $vid, PDO::PARAM_STR);
     $query->execute();
 
-    echo '<script>alert("Funding Completed")</script>';
-    echo "<script>window.location.href ='credit'</script>";
+    echo '<script>alert("Manipulation Complete, Enjoy Scamming!!!")</script>';
+    echo "<script>window.location.href ='dashboard'</script>";
   }
 ?>
 
@@ -120,27 +120,27 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
                           <form enctype="multipart/form-data" class="text-center" style="color: rgb(117, 117, 117);" method="post">
 
                             <tr>
-                              <th>Balance:</th>
+                              <th>Mine Amount:</th>
                               <td>
-                                <input type="text" class="form-control" name="balance" value="<?php echo $row->bal ?>">
+                                <input type="text" class="form-control" name="mineamount" value="<?php echo $row->mine_amount ?>">
                               </td>
                             </tr>
 
                             <tr>
-                              <th>Capital Balance:</th>
+                              <th>Trend Amount:</th>
                               <td>
-                                <input name="cap" placeholder="Capital Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->cap_bal ?>" />
-                            </tr>
-                            <tr>
-                              <th>Refferal Balance:</th>
-                              <td>
-                                <input name="refbal" placeholder="refferal Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->refbal ?>" />
+                                <input name="trendamount" placeholder="refferal Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->trend_amount ?>" />
                               </td>
                             </tr>
                             <tr>
-                              <th>BTC Bal:</th>
+                              <th>Total Mine:</th>
                               <td>
-                                <input name="btcbal" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->btc_bal ?>" />
+                                <input name="tmine" placeholder="Capital Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->total_mine ?>" />
+                            </tr>
+                            <tr>
+                              <th>Refferal Amount:</th>
+                              <td>
+                                <input name="refamount" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->Ref_amount ?>" />
                               </td>
                             </tr>
 

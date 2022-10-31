@@ -146,7 +146,7 @@ foreach($results as $row)
                                             <u>Status</u>
                                         </h3>
                                         <p class="card-text">
-                                            Withdrawal Threshold: <span class="bg-warning text-dark py-1 px-3 rounded font-weight-bold"><?php echo '40,000' ?></span>
+                                            Withdrawal Threshold: <span class="bg-warning text-dark py-1 px-3 rounded font-weight-bold"><?php echo '15,000' ?></span>
                                         </p>
                                         <p class="card-text">
                                             Referral Amount: <span class="bg-info text-white py-1 px-3 rounded font-weight-bold"><?php echo $row->Ref_amount ?></span>

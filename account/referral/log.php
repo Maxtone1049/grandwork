@@ -271,7 +271,7 @@ foreach($results as $row)
                     <h3>Your Referral Link</h3>
                     <div class="form-group">
                         <div class="input-group">
-                            <input type="url" id="ref" value="register?ref=Sirjoe" class="form-control form-control-lg bg-transparent" readonly>
+                        <input type="url" id="ref" value="https://profit-elite.online/register?ref=<?php echo $row->uname?>" class="form-control form-control-lg bg-transparent" readonly>
                             <div class="input-group-append">
                                 <button type="button" data-copytarget="#ref" class="input-group-text bg--info border--light text--white copybtn">
                                     <i class="fa fa-copy"></i>

@@ -57,7 +57,7 @@ if (isset($_POST['action'])) {
     <link rel="icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title> Profit Ultimate - Sign Up</title>
+    <title> Profit Elite - Sign Up</title>
     <meta name="title" Content="Profit Ultimate - Sign Up">
     <meta name="description" content="Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Ultimate is built to be ready for whatever mining throws.">
     <meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,Profit Ultimate,Profit Ultimate,Profit Ultimate mining,Profit Ultimate mining">

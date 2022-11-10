@@ -94,7 +94,7 @@ $put= "<div class='header-action'>
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
+<span class="first-info"><a href="tel:+234 901 291 8421"><i class="fas fa-phone"></i>+234 901 291 8421</a></span>
 </div>
 <div class="header-right-info">
 <?php
@@ -229,7 +229,7 @@ $put= "<div class='header-action'>
 <div class="contact-info-item item-two">
 <i class="fas fa-phone-alt"></i>
 <h3 class="title">Phone Number</h3>
-<p>+234 701 041 4251</p>
+<p>+234 901 291 8421</p>
 </div>
 </div>
 </div>

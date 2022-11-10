@@ -50,7 +50,7 @@
                             <div class="footer-widget widget-menu">
                                 <h3 class="widget-title">Contact Info</h3>
                                 <ul class="footer-list">
-                                    <li>Call Us Now +234 701 041 4251</li>
+                                    <li>Call Us Now +234 901 291 8421</li>
                                     <li>
                                         <a href="mailto:support@profit-elite.online" class="__cf_email__" >support@profit-elite.online</a>
                                     </li>

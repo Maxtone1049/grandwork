@@ -109,7 +109,7 @@ $put= "<div class='header-action'>
 <div class="header-top-content">
 <div class="header-content d-flex flex-wrap justify-content-between align-items-center">
 <div class="header-right-info">
-<span class="first-info"><a href="tel:+234 701 041 4251"><i class="fas fa-phone"></i>+234 701 041 4251</a></span>
+<span class="first-info"><a href="tel:+234 901 291 8421"><i class="fas fa-phone"></i>+234 901 291 8421</a></span>
 </div>
 <div class="header-right-info">
 <?php
@@ -205,7 +205,7 @@ and you would be attended to promptly.
 <tr>
 <th scope="row">1</th>
 <td class="disname">Elite Admin</td>
-<td class="disname">+234 701 041 4251</td>
+<td class="disname">+234 901 291 8421</td>
 <td>
 <a href="https://api.whatsapp.com/send/?phone=2347010414251&amp;text=Hello,+I+want+to+purchase+Profit Elite+activation+code.+Hope+you+are+available?&amp;app_absent=0" target="_blank">
 <img class="wa-image" src="assets/templates/basic/images/whatsapp.png" title="Click to chat">

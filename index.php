@@ -246,7 +246,7 @@ $put= "<div class='header-action'>
 <div class="row justify-content-center ml-b-30">
 <div class="col-lg-6 mrb-30">
 <div class="about-thumb">
-<img src="assets/images/frontend/about/6059bc7e057951616493694.png" alt="about">
+<img src="assets/images/frontend/about/6059bc7e057951616493694.jpeg" alt="about">
 </div>
 </div>
 <div class="col-lg-6 mrb-30">

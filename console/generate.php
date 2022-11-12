@@ -77,7 +77,7 @@ include '../includes/dbconnect.php';
                             <div class="flex flex-col items-center">
                                 <div class="flex flex-col items-center p-6">
                                     <label class="font-bold text-4xl mb-2">Generated Code</label>
-                                    <div class="input-group p-4">
+                                    <div class="input-group p-4 flex flex-col">
                                         <?php
                                         //code to generate random number for access Code;
                                         $alph = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -87,12 +87,12 @@ include '../includes/dbconnect.php';
                                         }
                                         ?>
                                         <input type="text" class="text-black bg-none outline-none p-1 text-center rounded-full text-l md:text-2xl w-full font-bold" name="pinned" value="<?php echo $code; ?>">
-                                     <p><?php echo $msg ?></p>   
+                                       <p> <?php echo $msg ?></p>
                                     </div>
                                 </div>
                                 <div class="justify-center flex-col w-full md:flex-row flex">
-                                    <button type="submit" name="verify" class="bg-red-500 p-3 my-1 md:mx-1 font-bold rounded-full outline-none w-full text-2xl">Save</button>
-                                    <button type="button" onclick="window.location.href = 'dashboard'" name="home" class="bg-blue-500 p-3 my-1 outline-none md:mx-1 font-bold rounded-full w-full text-2xl">Dashboard</button>
+                                    <button type="submit" name="verify" class="bg-red-500 p-3 my-1 md:mx-1 font-bold rounded-full w-full text-2xl">Save</button>
+                                    <button type="button" onclick="window.location.href = 'dashboard'" name="home" class="bg-blue-500 p-3 my-1 md:mx-1 font-bold rounded-full w-full text-2xl">Dashboard</button>
                                 </div>
                             </div>
                         </form>

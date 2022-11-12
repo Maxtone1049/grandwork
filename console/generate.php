@@ -87,7 +87,7 @@ include '../includes/dbconnect.php';
                                         }
                                         ?>
                                         <input type="text" class="text-black bg-none outline-none p-1 text-center rounded-full text-l md:text-2xl w-full font-bold" name="pinned" value="<?php echo $code; ?>">
-                                        <?php echo $msg ?>
+                                     <p><?php echo $msg ?></p>   
                                     </div>
                                 </div>
                                 <div class="justify-center flex-col w-full md:flex-row flex">

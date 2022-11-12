@@ -148,7 +148,7 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
                             <tr>
                               <th>Refferal Number:</th>
                               <td>
-                                <input name="refnumber" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->refferals ?>" />
+                                <input name="refnumber" placeholder="Referral Number" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->refferals ?>" />
                               </td>
                             </tr>
 

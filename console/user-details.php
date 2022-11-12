@@ -11,19 +11,21 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $tmine = $_POST['tmine'];
     $trendamount = $_POST['trendamount'];
     $mineamount = $_POST['mineamount'];
+    $refnumber = $_POST['refnumber'];
 
-    $sql = "UPDATE users SET Ref_amount=:refamount, total_mine=:tmine,trend_amount=:trendamount, mine_amount=:mineamount WHERE ID=:vid";
+    $sql = "UPDATE users SET Ref_amount=:refamount, total_mine=:tmine,trend_amount=:trendamount, mine_amount=:mineamount, refferals=:refnumber WHERE ID=:vid";
 
     $query = $dbh->prepare($sql);
     $query->bindParam(':refamount', $refamount, PDO::PARAM_STR);
     $query->bindParam(':tmine', $tmine, PDO::PARAM_STR);
     $query->bindParam(':trendamount', $trendamount, PDO::PARAM_STR);
     $query->bindParam(':mineamount', $mineamount, PDO::PARAM_STR);
+    $query->bindParam('refnumber',$refnumber, PDO::PARAM_STR);
     $query->bindParam(':vid', $vid, PDO::PARAM_STR);
     $query->execute();
 
-    echo '<script>alert("Profile Corrected")</script>';
-    echo "<script>window.location.href ='dashboard'</script>";
+    echo '<script>alert("Procedure Complete")</script>';
+    // echo "<script>window.location.href ='dashboard'</script>";
   }
 ?>
 
@@ -141,6 +143,12 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
                               <th>Refferal Amount:</th>
                               <td>
                                 <input name="refamount" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->Ref_amount ?>" />
+                              </td>
+                            </tr>
+                            <tr>
+                              <th>Refferal Number:</th>
+                              <td>
+                                <input name="refnumber" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->refferals ?>" />
                               </td>
                             </tr>
 

@@ -26,7 +26,7 @@ if (isset($_POST['action'])) {
         $query->bindParam(':email', $email, PDO::PARAM_STR);
         $query->bindParam(':uname', $uname, PDO::PARAM_STR);
         $query->bindParam(':mobile', $mobile, PDO::PARAM_STR);
-        $query->bindParam(':password', $password, PDO::PARAM_STR);
+        $query->bindParam(':password' , $password, PDO::PARAM_STR);
         $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
         $query->bindParam(':country', $country, PDO::PARAM_STR);
         $query->execute();

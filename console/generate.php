@@ -23,7 +23,7 @@ include '../includes/dbconnect.php';
     <link href="lib/select2/css/select2.min.css" rel="stylesheet">
     <!-- Amanda CSS -->
     <link rel="stylesheet" href="css/amanda.css">
-    <title>Admin - Pin Validate</title>
+    <title>Admin Profit - Pin Validate</title>
 </head>
 
 <body>

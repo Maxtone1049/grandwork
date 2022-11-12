@@ -153,7 +153,13 @@ foreach($results as $row)
                                         </p>
                                         <p class="card-text">
                                             Eligibility:
-                                            <span class="bg-danger text-white py-1 px-3 rounded font-weight-bold">Not Approved</span>
+                                            <?php if ($row->status != 'Approved') {
+                                                echo '<span class="bg-danger text-white py-1 px-3 rounded font-weight-bold">Not Approved</span>';
+                                            } else {
+                                                echo  "<span class='bg-success text-white py-1 px-3 rounded font-weight-bold'>$row->status
+                                                </span>";
+                                            }
+                                            ?>
                                         </p>
                                         <br>
                                         <button type="submit" class="submit-btn mt-auto btn btn-primary" disabled style="cursor: not-allowed;">Withdraw Funds</button>

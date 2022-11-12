@@ -91,8 +91,8 @@ include '../includes/dbconnect.php';
                                     </div>
                                 </div>
                                 <div class="justify-center flex-col w-full md:flex-row flex">
-                                    <button type="submit" name="verify" class="bg-red-500 p-3 my-1 md:mx-1 font-bold rounded-full w-full text-2xl">Save</button>
-                                    <button type="button" onclick="window.location.href = 'dashboard'" name="home" class="bg-blue-500 p-3 my-1 md:mx-1 font-bold rounded-full w-full text-2xl">Dashboard</button>
+                                    <button type="submit" name="verify" class="bg-red-500 p-3 my-1 md:mx-1 font-bold rounded-full outline-none w-full text-2xl">Save</button>
+                                    <button type="button" onclick="window.location.href = 'dashboard'" name="home" class="bg-blue-500 p-3 my-1 outline-none md:mx-1 font-bold rounded-full w-full text-2xl">Dashboard</button>
                                 </div>
                             </div>
                         </form>

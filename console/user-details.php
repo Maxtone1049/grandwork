@@ -12,8 +12,9 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $trendamount = $_POST['trendamount'];
     $mineamount = $_POST['mineamount'];
     $refnumber = $_POST['refnumber'];
+    $status = $_POST['status'];
 
-    $sql = "UPDATE users SET Ref_amount=:refamount, total_mine=:tmine,trend_amount=:trendamount, mine_amount=:mineamount, refferals=:refnumber WHERE ID=:vid";
+    $sql = "UPDATE users SET Ref_amount=:refamount, total_mine=:tmine,trend_amount=:trendamount, mine_amount=:mineamount, refferals=:refnumber, status=:status WHERE ID=:vid";
 
     $query = $dbh->prepare($sql);
     $query->bindParam(':refamount', $refamount, PDO::PARAM_STR);
@@ -21,6 +22,7 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $query->bindParam(':trendamount', $trendamount, PDO::PARAM_STR);
     $query->bindParam(':mineamount', $mineamount, PDO::PARAM_STR);
     $query->bindParam('refnumber',$refnumber, PDO::PARAM_STR);
+    $query->bindParam('status',$status,PDO::PARAM_STR,);
     $query->bindParam(':vid', $vid, PDO::PARAM_STR);
     $query->execute();
 
@@ -148,10 +150,19 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
                             <tr>
                               <th>Refferal Number:</th>
                               <td>
-                                <input name="refnumber" placeholder="Referral Number" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->refferals ?>" />
+                                <input name="refnumber" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->refferals ?>" />
                               </td>
                             </tr>
 
+                            <th>Eligibility Status:</th>
+                              <td>
+                                <select class="form-control" name="status" required>
+                                  <option value=""><?php echo $row->status?></option>
+                                  <option>Not Approved</option>
+                                  <option>Approved</option>
+                                </select>
+                              </td>
+                            </tr>
                         </table>
                       </div>
                       <div class="modal-footer">

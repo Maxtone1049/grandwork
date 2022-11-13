@@ -33,7 +33,7 @@ if (isset($_POST['action'])) {
 
         $lastInsertId = $dbh->lastInsertId();
         if ($lastInsertId) {
-            $msg = "Welcome To Profit-Ultimate";
+            $msg = "Welcome To Profit-Elite";
             echo ("<script type='text/javascript'>  
  setTimeout(function(){
     window.location.href = 'login';

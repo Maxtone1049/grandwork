@@ -14,8 +14,10 @@ if (isset($_POST['action'])) {
     $country = $_POST['country'];
 
     $ret = "SELECT email from users where email=:email";
-    $query = $dbh->prepare($ret);
+    $veri = "SELECT pinnum from pintable where pinnum=:purchase_code";
+    $query = $dbh->prepare($ret.$veri);
     $query->bindParam(':email', $email, PDO::PARAM_STR);
+    $query->bindParam('purchase_code',$purchase_code,PDO::PARAM_STR);
     $query->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
     if ($query->rowCount() == 0) {
@@ -26,7 +28,7 @@ if (isset($_POST['action'])) {
         $query->bindParam(':email', $email, PDO::PARAM_STR);
         $query->bindParam(':uname', $uname, PDO::PARAM_STR);
         $query->bindParam(':mobile', $mobile, PDO::PARAM_STR);
-        $query->bindParam(':password' , $password, PDO::PARAM_STR);
+        $query->bindParam(':password', $password, PDO::PARAM_STR);
         $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
         $query->bindParam(':country', $country, PDO::PARAM_STR);
         $query->execute();
@@ -40,11 +42,11 @@ if (isset($_POST['action'])) {
  }, 3000);
 </script>");
         } else {
-            $msg = "Something went wrong.Please try again";
+            $msg = "Unable to register Please try again, Ensure all Input fields are filled";
         }
     } else {
 
-        $msg = "This Email is already taken. Use another email";
+        $msg = "This Email is already taken. Use another email and get a Verified Code from our Agents";
     }
 }
 ?>

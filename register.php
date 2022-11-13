@@ -13,6 +13,12 @@ if (isset($_POST['action'])) {
     $purchase_code = $_POST['purchase_code'];
     $country = $_POST['country'];
 
+    // check if the purchase code exist
+    $ret = "SELECT ID from pintable where pinnum=:purchase_code";
+    $query = $dbh->prepare($ret);
+    $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
+    $query->execute();
+    $results = $query->fetchAll(PDO::FETCH_OBJ);
 
 
     // check if the purchase code is already used
@@ -22,12 +28,6 @@ if (isset($_POST['action'])) {
     $qui->execute();
     $sult = $qui->fetchAll(PDO::FETCH_OBJ);
 
-    // check if the purchase code exist
-    $ret = "SELECT ID from pintable where pinnum=:purchase_code";
-    $query = $dbh->prepare($ret);
-    $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
-    $query->execute();
-    $results = $query->fetchAll(PDO::FETCH_OBJ);
     if ($qui->rowCount() > 0) {
 
         if ($query->rowCount() > 0) {

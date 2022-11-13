@@ -4,43 +4,41 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="icon" type="image/x-icon" href="https://afrigoldm.com/assets/images/logoIcon/favicon.png">
-<link rel="shortcut icon" type="image/x-icon" href="https://afrigoldm.com/assets/images/logoIcon/favicon.png" />
+<link rel="icon" type="image/x-icon" href="https://ProfitElitem.com/assets/images/logoIcon/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="https://ProfitElitem.com/assets/images/logoIcon/favicon.png" />
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<title> Profit Ultimate - Forgot Password</title>
-<meta name="title" Content="Profit Ultimate - Forgot Password">
-<meta name="description" content="Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Ultimate is built to be ready for whatever mining throws.">
-<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,AfriGold,Profit Ultimate,Afrigold mining,Profit Ultimate mining">
-<link rel="shortcut icon" href="https://afrigoldm.com/assets/images/logoIcon/favicon.png" type="image/x-icon">
-<link rel="apple-touch-icon" href="https://afrigoldm.com/assets/images/logoIcon/logo.png">
+<title> Profit Elite - Forgot Password</title>
+<meta name="title" Content="Profit Elite - Forgot Password">
+<meta name="description" content="Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. It will grow beyond our imagination- and Profit Elite is built to be ready for whatever mining throws.">
+<meta name="keywords" content="blog,Bitcoin,Ethereum,Tether,Binance Coin,Cardano,Polkadot,XRP,USD Coin,Filecoin,Klaytn,Elrond,user,payment,coin,litecoin,dogi,sales,report,ProfitElite,Profit Elite,ProfitElite mining,Profit Elite mining">
+<link rel="shortcut icon" href="https://ProfitElitem.com/assets/images/logoIcon/favicon.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="https://ProfitElitem.com/assets/images/logoIcon/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Profit Ultimate - Forgot Password">
-<meta itemprop="name" content="Profit Ultimate - Forgot Password">
+<meta name="apple-mobile-web-app-title" content="Profit Elite - Forgot Password">
+<meta itemprop="name" content="Profit Elite - Forgot Password">
 <meta itemprop="description" content="">
-<meta itemprop="image" content="https://afrigoldm.com/assets/images/seo/612d1ba9df6921630346153.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Profit Ultimate">
-<meta property="og:description" content="Profit Ultimate is an integral part of the cryptocurrency miner space. Profit Ultimate is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Ultimate allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
-<meta property="og:image" content="https://afrigoldm.com/assets/images/seo/612d1ba9df6921630346153.png" />
+<meta property="og:title" content="Profit Elite">
+<meta property="og:description" content="Profit Elite is an integral part of the cryptocurrency miner space. Profit Elite is a site built for Cryptocurrency, Initial Coin Offerings, and Mining. The Profit Elite allows you to instantly switch what you are mining, review earnings, withdraw and receive from the wallets, and much more.">
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="315" />
-<meta property="og:url" content="https://afrigoldm.com/password/reset">
+<meta property="og:url" content="/password/reset">
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="stylesheet" href="https://afrigoldm.com/assets/templates/basic/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="\assets/templates/basic/css/fontawesome-all.min.css">
 
 
-<link rel="stylesheet" href="https://afrigoldm.com/assets/templates/basic/css/bootstrap.min.css">
+<link rel="stylesheet" href="\assets/templates/basic/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="https://afrigoldm.com/assets/templates/basic/css/nice-select.css">
+<link rel="stylesheet" href="\assets/templates/basic/css/nice-select.css">
 
-<link rel="stylesheet" href="https://afrigoldm.com/assets/templates/basic/css/animate.css">
+<link rel="stylesheet" href="\assets/templates/basic/css/animate.css">
 
-<link rel="stylesheet" href="https://afrigoldm.com/assets/templates/basic/css/style.css">
-<link rel="stylesheet" href="https://afrigoldm.com/assets/templates/basic/css/custom.css">
-<link rel="stylesheet" type="text/css" href="https://afrigoldm.com/assets/templates/basic/css/color.php?color=b2991b">
+<link rel="stylesheet" href="\assets/templates/basic/css/style.css">
+<link rel="stylesheet" href="\assets/templates/basic/css/custom.css">
+<link rel="stylesheet" type="text/css" href="\assets/templates/basic/css/color.php?color=b2991b">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198044238-4"></script>
 <script>
@@ -61,8 +59,8 @@
 <div class='shapes'>
 <div class='shape_l'></div>
 <div class='shape_r'></div>
-<span class='top'>ProfitUltimate</span>
-<span class='bottom'>ProfitUltimate</span>
+<span class='top'>ProfitElite</span>
+<span class='bottom'>ProfitElite</span>
 </div>
 </div>
 <div class='shadow'></div>

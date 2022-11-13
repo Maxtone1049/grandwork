@@ -16,7 +16,7 @@ if (isset($_POST['action'])) {
 
 
     // check if the purchase code is already used
-    $via = "SELECT p_code from users where p_code=:purchase_code";
+    $via = "SELECT ID from users where p_code=:purchase_code";
     $qui = $dbh->prepare($via);
     $qui->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
     $qui->execute();

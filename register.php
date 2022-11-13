@@ -17,7 +17,7 @@ if (isset($_POST['action'])) {
     $veri = "SELECT pinnum from pintable where pinnum=:purchase_code";
     $query = $dbh->prepare($veri);
     // $query->bindParam(':email', $email, PDO::PARAM_STR);
-    $query->bindParam('purchase_code',$purchase_code,PDO::PARAM_STR);
+    $query->bindParam(':purchase_code',$purchase_code,PDO::PARAM_STR);
     $query->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
     if ($query->rowCount() == 0) {

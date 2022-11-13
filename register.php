@@ -12,18 +12,15 @@ if (isset($_POST['action'])) {
     $password = $_POST['password'];
     $purchase_code = $_POST['purchase_code'];
     $country = $_POST['country'];
-
-    $ret = "SELECT p_code from users INNER JOIN pintable ON pintable.pinnum=users.p_code where pinnum=:purchase_code";
-    // $veri="SELECT pinnum from pintable where pinnum=:purchase_code";
+// proGRAM112
+    // $ret = "SELECT email,pinnum from users ur,pintable pin where ur.email=:email AND pin.pinnum=:purchase_code";
+    $ret= "SELECT pinnum from pintable where pinnum=:purchase_code";
     $query = $dbh->prepare($ret);
-    // $check = $dbh->prepare($veri);
     // $query->bindParam(':email', $email, PDO::PARAM_STR);
-    $query->bindParam(':purchase_code',$purchase_code,PDO::PARAM_STR);
+    $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
     $query->execute();
-    // $check->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
-    // $looked = $check->fetchAll(PDO::FETCH_OBJ);
-    if ($query->rowCount()==0) {
+    if ($query->rowCount() == 0) {
         $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
         $query = $dbh->prepare($sql);
         $query->bindParam(':fname', $fname, PDO::PARAM_STR);
@@ -35,6 +32,12 @@ if (isset($_POST['action'])) {
         $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
         $query->bindParam(':country', $country, PDO::PARAM_STR);
         $query->execute();
+
+        // $reti = "SELECT email from users where email=:email";
+        // $via = $dbh->prepare($reti);
+        // $via->bindParam(':email', $email, PDO::PARAM_STR);
+        // $via->execute();
+        // $res = $query->fetchAll(PDO::FETCH_OBJ);
 
         $lastInsertId = $dbh->lastInsertId();
         if ($lastInsertId) {
@@ -48,7 +51,8 @@ if (isset($_POST['action'])) {
             $msg = "Unable to register Please try again, Ensure all Input fields are filled";
         }
     } else {
-        $msg = "Invalid Code, Get a Verified Code from our Agents";
+
+        $msg = "This Code is already Used. Get code from our Agents";
     }
 }
 ?>

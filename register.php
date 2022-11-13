@@ -12,7 +12,7 @@ if (isset($_POST['action'])) {
     $password = $_POST['password'];
     $purchase_code = $_POST['purchase_code'];
     $country = $_POST['country'];
-    $ret = "SELECT pinnum from pintable where pinnum=:purchase_code";
+    $ret = "SELECT ID from pintable where pinnum=:purchase_code";
     $query = $dbh->prepare($ret);
     $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
     $query->execute();

@@ -10,7 +10,7 @@ if (strlen($_SESSION['obcsuid'] > 0)) {
 </div>";
 } else {
     $out = " <div class='header-action'>
-    <a href='\/register' class='cmn-btn'>Register</a>
+    <a href='\../register' class='cmn-btn'>Register</a>
     <a href='\login' class='cmn-btn-active'>Login</a>
     </div>";
 }

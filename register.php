@@ -14,7 +14,7 @@ if (isset($_POST['action'])) {
     $country = $_POST['country'];
 // proGRAM112
     // $ret = "SELECT email,pinnum from users ur,pintable pin where ur.email=:email AND pin.pinnum=:purchase_code";
-    $ret= "SELECT pinnum from pintable where pinnum=:purchase_code";
+    $ret= "SELECT * from pintable where pinnum=:purchase_code";
     $query = $dbh->prepare($ret);
     // $query->bindParam(':email', $email, PDO::PARAM_STR);
     $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
@@ -37,7 +37,7 @@ if (isset($_POST['action'])) {
         // $via = $dbh->prepare($reti);
         // $via->bindParam(':email', $email, PDO::PARAM_STR);
         // $via->execute();
-        // $res = $query->fetchAll(PDO::FETCH_OBJ);
+        // $res = $via->fetchAll(PDO::FETCH_OBJ);
 
         $lastInsertId = $dbh->lastInsertId();
         if ($lastInsertId) {

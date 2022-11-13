@@ -12,39 +12,55 @@ if (isset($_POST['action'])) {
     $password = $_POST['password'];
     $purchase_code = $_POST['purchase_code'];
     $country = $_POST['country'];
+
+    // check if the purchase code exist
     $ret = "SELECT ID from pintable where pinnum=:purchase_code";
     $query = $dbh->prepare($ret);
     $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
     $query->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
-    if ($query->rowCount() > 0) {
-        $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
-        $query = $dbh->prepare($sql);
-        $query->bindParam(':fname', $fname, PDO::PARAM_STR);
-        $query->bindParam(':lname', $lname, PDO::PARAM_STR);
-        $query->bindParam(':email', $email, PDO::PARAM_STR);
-        $query->bindParam(':uname', $uname, PDO::PARAM_STR);
-        $query->bindParam(':mobile', $mobile, PDO::PARAM_STR);
-        $query->bindParam(':password', $password, PDO::PARAM_STR);
-        $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
-        $query->bindParam(':country', $country, PDO::PARAM_STR);
-        $query->execute();
 
-        $lastInsertId = $dbh->lastInsertId();
-        if ($lastInsertId) {
-            $msg = "Welcome To Profit-Elite";
-            echo ("<script type='text/javascript'>  
- setTimeout(function(){
-    window.location.href = 'login';
- }, 3000);
-</script>");
+    // check if the purchase code is already used
+    $via = "SELECT ID from users where p_code=:purchase_code";
+    $qui = $dbh->prepare($via);
+    $qui->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
+    $qui->execute();
+    $sult = $qui->fetchAll(PDO::FETCH_OBJ);
+
+    if ($qui->rowCount()>0) {
+        if ($query->rowCount() > 0) {
+            $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
+            $query = $dbh->prepare($sql);
+            $query->bindParam(':fname', $fname, PDO::PARAM_STR);
+            $query->bindParam(':lname', $lname, PDO::PARAM_STR);
+            $query->bindParam(':email', $email, PDO::PARAM_STR);
+            $query->bindParam(':uname', $uname, PDO::PARAM_STR);
+            $query->bindParam(':mobile', $mobile, PDO::PARAM_STR);
+            $query->bindParam(':password', $password, PDO::PARAM_STR);
+            $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
+            $query->bindParam(':country', $country, PDO::PARAM_STR);
+            $query->execute();
+    
+            $lastInsertId = $dbh->lastInsertId();
+            if ($lastInsertId) {
+                $msg = "Welcome To Profit-Elite";
+                echo ("<script type='text/javascript'>  
+     setTimeout(function(){
+        window.location.href = 'login';
+     }, 3000);
+    </script>");
+            } else {
+                $msg = "Unable to register Please try again, Ensure all Input fields are filled";
+            }
         } else {
-            $msg = "Unable to register Please try again, Ensure all Input fields are filled";
+    
+            $msg = "This Code doesn't exist. Get a Verified code from our Agents";
         }
-    } else {
-
-        $msg = "This Code doesn't exist. Get a Verified code from our Agents";
+    }else{
+        $msg="This Code has already been used, Get a verified Code from out Agents";
     }
+
+   
 }
 ?>
 <!doctype html>
@@ -140,7 +156,7 @@ if (isset($_POST['action'])) {
                         <div class="account-header text-center">
                             <h2 class="title">Register Your Account Now</h2>
                             <p class="sub-title">Already Have An Account? <a href="login">Login Now</a></p>
-                            <p style="font-size:20px;font-weight:600; border-radius:12px;color:#fff; width:70%; margin:auto; text-align:center; margin-bottom:30px; background-color:red;">
+                            <p style="font-size:18px;font-weight:500; border-radius:12px;color:#fff; width:70%; margin:auto; text-align:center; margin-bottom:30px; background-color:red;">
 
                                 <?php if ($msg) {
                                     echo $msg;

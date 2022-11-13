@@ -23,7 +23,7 @@ if (isset($_POST['action'])) {
     $check->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
     $looked = $check->fetchAll(PDO::FETCH_OBJ);
-    if ($query->rowCount() == 0 || $check->rowCount()==0) {
+    if ($check->rowCount()==0) {
         $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
         $query = $dbh->prepare($sql);
         $query->bindParam(':fname', $fname, PDO::PARAM_STR);

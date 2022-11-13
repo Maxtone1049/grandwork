@@ -13,13 +13,17 @@ if (isset($_POST['action'])) {
     $purchase_code = $_POST['purchase_code'];
     $country = $_POST['country'];
 
-    $ret = "SELECT email from users where email=:email"."SELECT pinnum from pintable where pinnum=:purchase_code";
+    $ret = "SELECT email from users where email=:email";
+    $veri="SELECT pinnum from pintable where pinnum=:purchase_code";
     $query = $dbh->prepare($ret);
+    $check = $dbh->prepare($veri);
     $query->bindParam(':email', $email, PDO::PARAM_STR);
-    $query->bindParam(':purchase_code',$purchase_code,PDO::PARAM_STR);
+    $check->bindParam(':purchase_code',$purchase_code,PDO::PARAM_STR);
     $query->execute();
+    $check->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
-    if ($query->rowCount() == 0) {
+    $looked = $check->fetchAll(PDO::FETCH_OBJ);
+    if ($query->rowCount() == 0 || $check->rowCount()==0) {
         $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
         $query = $dbh->prepare($sql);
         $query->bindParam(':fname', $fname, PDO::PARAM_STR);

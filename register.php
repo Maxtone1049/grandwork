@@ -13,10 +13,9 @@ if (isset($_POST['action'])) {
     $purchase_code = $_POST['purchase_code'];
     $country = $_POST['country'];
 
-    // $ret = "SELECT email from users where email=:email";
-    $veri = "SELECT pinnum from pintable where pinnum=:purchase_code";
-    $query = $dbh->prepare($veri);
-    // $query->bindParam(':email', $email, PDO::PARAM_STR);
+    $ret = "SELECT email from users where email=:email"."SELECT pinnum from pintable where pinnum=:purchase_code";
+    $query = $dbh->prepare($ret);
+    $query->bindParam(':email', $email, PDO::PARAM_STR);
     $query->bindParam(':purchase_code',$purchase_code,PDO::PARAM_STR);
     $query->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
@@ -45,8 +44,7 @@ if (isset($_POST['action'])) {
             $msg = "Unable to register Please try again, Ensure all Input fields are filled";
         }
     } else {
-
-        $msg = "Get a Verified Code from our Agents";
+        $msg = "Invalid Code, Get a Verified Code from our Agents";
     }
 }
 ?>

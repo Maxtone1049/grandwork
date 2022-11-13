@@ -43,7 +43,7 @@ if (isset($_POST['action'])) {
         }
     } else {
 
-        $msg = "This Code is already Used. Get code from our Agents";
+        $msg = "This Code doesn't exist. Get a Verified code from our Agents";
     }
 }
 ?>

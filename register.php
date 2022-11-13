@@ -13,12 +13,12 @@ if (isset($_POST['action'])) {
     $purchase_code = $_POST['purchase_code'];
     $country = $_POST['country'];
 
-    $ret = "SELECT email from users where email=:email INNER JOIN pintable ON pintable where purchase_code=:purchase_code";
+    $ret = "SELECT p_code from users INNER JOIN pintable ON pintable.pinnum=users.p_code where pinnum=:purchase_code";
     // $veri="SELECT pinnum from pintable where pinnum=:purchase_code";
     $query = $dbh->prepare($ret);
     // $check = $dbh->prepare($veri);
-    $query->bindParam(':email', $email, PDO::PARAM_STR);
-    // $check->bindParam(':purchase_code',$purchase_code,PDO::PARAM_STR);
+    // $query->bindParam(':email', $email, PDO::PARAM_STR);
+    $query->bindParam(':purchase_code',$purchase_code,PDO::PARAM_STR);
     $query->execute();
     // $check->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);

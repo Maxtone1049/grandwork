@@ -29,37 +29,33 @@ if (isset($_POST['action'])) {
     $sult = $qui->fetchAll(PDO::FETCH_OBJ);
 
 
-    if ($qui->rowCount() >= 0) {
-    if ($query->rowCount() > 0) {
-            $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
-            $query = $dbh->prepare($sql);
-            $query->bindParam(':fname', $fname, PDO::PARAM_STR);
-            $query->bindParam(':lname', $lname, PDO::PARAM_STR);
-            $query->bindParam(':email', $email, PDO::PARAM_STR);
-            $query->bindParam(':uname', $uname, PDO::PARAM_STR);
-            $query->bindParam(':mobile', $mobile, PDO::PARAM_STR);
-            $query->bindParam(':password', $password, PDO::PARAM_STR);
-            $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
-            $query->bindParam(':country', $country, PDO::PARAM_STR);
-            $query->execute();
 
-            $lastInsertId = $dbh->lastInsertId();
-            if ($lastInsertId) {
-                $msg = "Welcome To Profit-Elite";
-                echo ("<script type='text/javascript'>  
+    if ($query->rowCount() > 0) {
+        $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
+        $query = $dbh->prepare($sql);
+        $query->bindParam(':fname', $fname, PDO::PARAM_STR);
+        $query->bindParam(':lname', $lname, PDO::PARAM_STR);
+        $query->bindParam(':email', $email, PDO::PARAM_STR);
+        $query->bindParam(':uname', $uname, PDO::PARAM_STR);
+        $query->bindParam(':mobile', $mobile, PDO::PARAM_STR);
+        $query->bindParam(':password', $password, PDO::PARAM_STR);
+        $query->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
+        $query->bindParam(':country', $country, PDO::PARAM_STR);
+        $query->execute();
+
+        $lastInsertId = $dbh->lastInsertId();
+        if ($lastInsertId) {
+            $msg = "Welcome To Profit-Elite";
+            echo ("<script type='text/javascript'>  
          setTimeout(function(){
             window.location.href = 'login';
          }, 3000);
         </script>");
-            } else {
-                $msg = "Unable to register Please try again, Ensure all Input fields are filled";
-            }
         } else {
-            $msg = "This Code doesn't exist. Get a Verified code from our Agents";
+            $msg = "Unable to register Please try again, Ensure all Input fields are filled";
         }
     } else {
-        
-        $msg = "Code Inputed is already Used";
+        $msg = "This Code doesn't exist. Get a Verified code from our Agents";
     }
 }
 ?>

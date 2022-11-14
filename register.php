@@ -22,7 +22,7 @@ if (isset($_POST['action'])) {
 
 
     // check if the purchase code is already used
-    $via = "SELECT * from users where p_code=:purchase_code";
+    $via = "SELECT ID from users where p_code=:purchase_code";
     $qui = $dbh->prepare($via);
     $qui->bindParam(':purchase_code', $purchase_code, PDO::PARAM_STR);
     $qui->execute();
@@ -30,7 +30,7 @@ if (isset($_POST['action'])) {
 
 
     if ($query->rowCount() > 0) {
-        if ($qui->rowCount() > 0) {
+        if ($qui->rowCount() == 0) {
             $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
             $query = $dbh->prepare($sql);
             $query->bindParam(':fname', $fname, PDO::PARAM_STR);

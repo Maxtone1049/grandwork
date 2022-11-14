@@ -29,8 +29,8 @@ if (isset($_POST['action'])) {
     $sult = $qui->fetchAll(PDO::FETCH_OBJ);
 
 
+    if ($qui->rowCount() >= 0) {
     if ($query->rowCount() > 0) {
-        if ($qui->rowCount() >= 0) {
             $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
             $query = $dbh->prepare($sql);
             $query->bindParam(':fname', $fname, PDO::PARAM_STR);
@@ -55,11 +55,11 @@ if (isset($_POST['action'])) {
                 $msg = "Unable to register Please try again, Ensure all Input fields are filled";
             }
         } else {
-            $msg = "The code inputed is already Used";
+            $msg = "This Code doesn't exist. Get a Verified code from our Agents";
         }
     } else {
-
-        $msg = "This Code doesn't exist. Get a Verified code from our Agents";
+        
+        $msg = "Code Inputed is already Used";
     }
 }
 ?>

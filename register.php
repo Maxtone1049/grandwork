@@ -29,7 +29,8 @@ if (isset($_POST['action'])) {
     $sult = $qui->fetchAll(PDO::FETCH_OBJ);
 
 
-        if ($query->rowCount() > 0) {
+    if ($query->rowCount() > 0) {
+        if ($qui->rowCount() > 0) {
             $sql = "INSERT INTO users(fname,lname,uname,phonenum,email,country,pword,p_code) VALUES (:fname,:lname,:uname,:mobile,:email,:country,:password,:purchase_code)";
             $query = $dbh->prepare($sql);
             $query->bindParam(':fname', $fname, PDO::PARAM_STR);
@@ -46,18 +47,21 @@ if (isset($_POST['action'])) {
             if ($lastInsertId) {
                 $msg = "Welcome To Profit-Elite";
                 echo ("<script type='text/javascript'>  
-     setTimeout(function(){
-        window.location.href = 'login';
-     }, 3000);
-    </script>");
+         setTimeout(function(){
+            window.location.href = 'login';
+         }, 3000);
+        </script>");
             } else {
                 $msg = "Unable to register Please try again, Ensure all Input fields are filled";
             }
         } else {
-
-            $msg = "This Code doesn't exist. Get a Verified code from our Agents";
+            $msg = "The code inputed is already Used";
         }
+    } else {
+
+        $msg = "This Code doesn't exist. Get a Verified code from our Agents";
     }
+}
 ?>
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
